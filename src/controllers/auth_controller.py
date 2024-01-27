@@ -5,9 +5,7 @@ from fastapi.responses import JSONResponse
 import bcrypt
 import os
 from jose import jwt
-from dotenv import load_dotenv
 from datetime import datetime, timedelta
-load_dotenv()
 
 SECRET_KEY = os.getenv("JWT_SECRET_KEY")
 ALGORITHM = os.getenv("JWT_ALGORITHM") 

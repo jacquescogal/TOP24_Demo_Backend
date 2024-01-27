@@ -1,11 +1,13 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from dotenv import load_dotenv
-from src.routers.auth_routers import auth_router
 import os
-
 load_dotenv()
+
+from src.routers.auth_routers import auth_router
+
 environment = os.getenv("ENVIRONMENT")
+
 app = FastAPI(docs_url=None if environment== "production" else "/docs")
 
 app.add_middleware(
