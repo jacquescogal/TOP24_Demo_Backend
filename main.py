@@ -5,6 +5,7 @@ import os
 load_dotenv()
 
 from src.routers.auth_routers import auth_router
+from src.routers.talk_routers import talk_router
 
 environment = os.getenv("ENVIRONMENT")
 
@@ -20,6 +21,7 @@ app.add_middleware(
 
 
 app.include_router(auth_router)
+app.include_router(talk_router)
 
 @app.get(
     path="/"
