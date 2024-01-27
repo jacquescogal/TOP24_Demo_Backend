@@ -3,6 +3,15 @@ from src.schemas.user_schemas import *
 from src.schemas.auth_schemas import *
 from fastapi.responses import JSONResponse
 import bcrypt
+import os
+from jose import jwt
+from dotenv import load_dotenv
+from datetime import datetime, timedelta
+load_dotenv()
+
+SECRET_KEY = os.getenv("JWT_SECRET_KEY")
+ALGORITHM = os.getenv("JWT_ALGORITHM") 
+
 class Authoriser:
     instance = None
 
@@ -21,8 +30,8 @@ class Authoriser:
         """
         response = await self.user_model.get_user(login_request.username)
         if response and response['role'] == role and bcrypt.checkpw(login_request.password.encode('utf-8'), response['password'].encode('utf-8')):
-            return JSONResponse(status_code=200, content={'message': f"Success: {role} {login_request.username} authenticated"})
-        return JSONResponse(status_code=401, content={'message': f"Error: {role} {login_request.username} not found or password is incorrect"})
+            return await self._get_jwt(User(**response))
+        return JSONResponse(status_code=401, content={'message': f"Error: {role} {login_request.username} not authenticated"})
     
     async def register(self, register_request:RegisterRequest, role:Role) -> JSONResponse:
         """
@@ -94,3 +103,16 @@ class Authoriser:
         """
         response = await self.user_model.get_all_users()
         return response
+    
+    async def _get_jwt(self,user:User) -> JSONResponse:
+        """
+        Gets a JWT for a user.
+        """
+        payload = {
+            'username': user.username,
+            'role': user.role,
+            'team_name': user.team_name,
+            "exp": datetime.utcnow() + timedelta(hours=12) # 12 hours
+        }
+        token = jwt.encode(payload, SECRET_KEY, algorithm=ALGORITHM,)
+        return JSONResponse(status_code=200, content={'token': token})

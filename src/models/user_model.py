@@ -1,5 +1,5 @@
 from src.db.database import Database
-from src.schemas.user_schemas import User, Role
+from src.schemas.user_schemas import Role
 from src.schemas.auth_schemas import RegisterRequest
 from fastapi.responses import JSONResponse
 

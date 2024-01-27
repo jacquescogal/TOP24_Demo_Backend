@@ -26,7 +26,7 @@ class GLChangePlayerPasswordRequest(BaseModel):
     username: str = Field(...,description="Username of the user")
     new_password: str = Field(...,description="New password of the user")
     gl_username: str = Field(...,description="Username of the gl")
-
+    
     @validator('new_password')
     def password_validation(cls, v):
         if len(v) < 8:

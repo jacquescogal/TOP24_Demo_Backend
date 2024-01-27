@@ -9,16 +9,5 @@ class Role(str, Enum):
 
 class User(BaseModel):
     username: str = Field(...,description="Username of the user")
-    password: str = Field(...,description="Password of the user")
-
-class Player(User):
-    team_name: str = Field(...,description="Team name of the player")
-    role: Literal['player']
-
-class GL(User):
     team_name: str = Field(...,description="Team name of the gl")
-    role: Literal['gl']
-
-class Facilitator(User):
-    team_name: str = Field(...,description="Game name of the facilitator")
-    role:  Literal['facilitator']
+    role: Role = Field(...,description="Role of the user")
