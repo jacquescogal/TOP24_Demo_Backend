@@ -222,6 +222,8 @@ class AphroTalker:
             aphro = aphro[i]
         if len(choiceList)<=2:
             choices={"choice_1": aphro["choice_1"]["choice_description"], "choice_2": aphro["choice_2"]["choice_description"], "choice_3": aphro["choice_3"]["choice_description"]}
+        else:
+            choices={}
         return JSONResponse(status_code=200, content={"message": aphro["god_message"],'choices':choices,'score':aphro.get('choice_score',0)})
     
 
