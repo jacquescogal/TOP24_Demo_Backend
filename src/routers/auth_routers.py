@@ -36,6 +36,8 @@ async def facilitator_login(login_request:LoginRequest):
 Protected routes
 """
 
+
+
 @auth_router.post(
         path="/user/change_password",
         tags=["auth", "user"])
@@ -105,3 +107,11 @@ async def get_test():
     authoriser = await Authoriser.get_instance()
     response = await authoriser.get_all_users()
     return response
+
+@auth_router.post(
+        path="/user/register",
+        tags=["auth", "user"])
+async def user_register(register_request:RegisterRequest):
+        authoriser = await Authoriser.get_instance()
+        response = await authoriser.register(register_request, Role.player)
+        return response
