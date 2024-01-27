@@ -1,13 +1,7 @@
 from fastapi import Header, HTTPException
 from jose import jwt, JWTError
-import os
-from dotenv import load_dotenv
 from src.schemas.user_schemas import User
-
-load_dotenv()
-
-SECRET_KEY = os.getenv("JWT_SECRET_KEY")
-ALGORITHM = os.getenv("JWT_ALGORITHM") 
+from src.dependencies.dependencies import SECRET_KEY, ALGORITHM
 
 def player_jwt_token_checker(authorization: str = Header(None)):
     print(authorization)
