@@ -27,13 +27,17 @@ class ConversationController:
         if self.decision_tree.get(god_state,None) is None:
             self.decision_tree[god_state] = await self.json_encryptor.decrypt_enc_file(f'conversation/{god_state}.enc')
         d_tree=self.decision_tree[god_state]
+        good_choice=0
+        result='ongoing'
         for i in choiceList:
             d_tree = d_tree[i]
+            good_choice+=1 if d_tree.get('choice_score',None)=='good' else 0
         if 'choice_1' in d_tree:
             choices={"choice_1": d_tree["choice_1"]["choice_description"], "choice_2": d_tree["choice_2"]["choice_description"], "choice_3": d_tree["choice_3"]["choice_description"]}
         else:
+            result = 'pass' if good_choice>=2 else 'fail'
             choices={}
-        return JSONResponse(status_code=200, content={"message": d_tree["god_message"],'choices':choices,'score':d_tree.get('choice_score',0)})
+        return JSONResponse(status_code=200, content={"message": d_tree["god_message"],'choices':choices,'result':result})
     
 
 
