@@ -46,6 +46,12 @@ async def gl_register_player(gl_register_player_request:GLRegisterPlayerRequest,
 Protected routes
 """
 
+@auth_router.get(
+        path='/user/check_token',
+        tags=["auth", "user"]
+)
+async def check_token(user:User = Depends(player_jwt_token_checker)):
+        return JSONResponse(status_code=200, content={'message': f"Success: {user.role} {user.username} authenticated"})
 
 
 @auth_router.post(
