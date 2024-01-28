@@ -7,6 +7,7 @@ class ConversationController:
 
     def __init__(self) -> None:
         self.decision_tree={}
+        self.json_encryptor=None
         pass
 
     @classmethod
@@ -18,10 +19,11 @@ class ConversationController:
 
     async def init_async(self):
         self.json_encryptor = await JsonEncryptor.get_instance()
-        return self
     
     async def talk(self,god:str,state:str, choiceList):
         god_state=f'{god}_{state}'
+        if self.json_encryptor is None:
+            self.json_encryptor = await JsonEncryptor.get_instance()
         if self.decision_tree.get(god_state,None) is None:
             self.decision_tree[god_state] = await self.json_encryptor.decrypt_enc_file(f'conversation/{god_state}.enc')
         d_tree=self.decision_tree[god_state]
