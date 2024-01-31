@@ -10,12 +10,13 @@ class UserModel:
 
     async def create_user(self, register_request:RegisterRequest,role:Role)->dict:
         payload = register_request.dict()
+        payload['username'] = payload['username'].lower()
         payload['role'] = role
         response = await self.df.put_item(self.table_name, payload)
         return response
     
     async def get_user(self, username:str)->dict:
-        response = await self.df.get_item(self.table_name, {'username':username})
+        response = await self.df.get_item(self.table_name, {'username':username.lower()})
         return response
     
     async def update_user(self, username:str, update_expression:str, expression_attribute_values:dict)->dict:
@@ -23,15 +24,15 @@ class UserModel:
         update expression example: "set password = :password"
         expression attribute values example: {':password': 'password'}
         """
-        response = await self.df.update_item(self.table_name, {'username':username}, update_expression, expression_attribute_values)
+        response = await self.df.update_item(self.table_name, {'username':username.lower()}, update_expression, expression_attribute_values)
         return response
     
     async def delete_user(self, username:str)->dict:
-        response = await self.df.delete_item(self.table_name, {'username':username})
+        response = await self.df.delete_item(self.table_name, {'username':username.lower()})
         return response
     
     async def check_user_exists(self, username:str)->bool:
-        user = await self.get_user(username)
+        user = await self.get_user(username.lower())
         if user:
             return True
         return False
