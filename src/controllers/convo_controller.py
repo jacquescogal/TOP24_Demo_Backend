@@ -1,6 +1,13 @@
 from fastapi.responses import JSONResponse
 from src.utils.JsonEncryptor import JsonEncryptor
+from src.schemas.user_schemas import User
+from src.schemas.convo_schemas import TalkRoomUser
+from datetime import datetime, timedelta
+from jose import jwt
 import os
+
+ROOM_SECRET_KEY = os.getenv("JWT_ROOM_SECRET_KEY")
+ALGORITHM = os.getenv("JWT_ALGORITHM") 
 
 class ConversationController:
     instance=None
@@ -39,5 +46,19 @@ class ConversationController:
             choices={}
         return JSONResponse(status_code=200, content={"message": d_tree["god_message"],'choices':choices,'result':result})
     
+    async def get_room_jwt(self,user:User,god:str,state:str) -> JSONResponse:
+        """
+        Gets a JWT for a user.
+        """
+        payload = {
+            'username': user.username,
+            'role': user.role,
+            'team_name': user.team_name,
+            'god': god,
+            'state': state,
+            "exp": datetime.utcnow() + timedelta(hours=12) # 12 hours
+        }
+        token = jwt.encode(payload, ROOM_SECRET_KEY, algorithm=ALGORITHM,)
+        return JSONResponse(status_code=200, content={'token': token})
 
 
