@@ -1,5 +1,6 @@
 from fastapi import Header, HTTPException
 from jose import jwt, JWTError
+from src.controllers.auth_controller import Authoriser
 from src.schemas.user_schemas import User
 from src.schemas.convo_schemas import TalkRoomUser
 import os
@@ -7,10 +8,9 @@ ROOM_SECRET_KEY = os.getenv("JWT_ROOM_SECRET_KEY")
 SECRET_KEY = os.getenv("JWT_SECRET_KEY")
 ALGORITHM = os.getenv("JWT_ALGORITHM") 
 
-def roleless_jwt_token_checker(authorization: str = Header(None)):
+async def roleless_jwt_token_checker(authorization: str = Header(None)):
     if not authorization or not authorization.startswith("Bearer "):
         raise HTTPException(status_code=401, detail="Not authenticated or invalid token format")
-
     token = authorization.split(" ")[1]
     try:
         # Validate the token
@@ -18,10 +18,12 @@ def roleless_jwt_token_checker(authorization: str = Header(None)):
         # Add more checks if needed
     except JWTError:
         raise HTTPException(status_code=401, detail="Invalid token")
+    authoriser = await Authoriser.get_instance()
+    if not await authoriser.authenticate_user_uuid(payload['username'],payload['uuid']):
+        raise HTTPException(status_code=401, detail="Invalid token")
     return User(**payload)
 
-def player_jwt_token_checker(authorization: str = Header(None)):
-    print(authorization)
+async def player_jwt_token_checker(authorization: str = Header(None)):
     if not authorization or not authorization.startswith("Bearer "):
         raise HTTPException(status_code=401, detail="Not authenticated or invalid token format")
 
@@ -34,9 +36,12 @@ def player_jwt_token_checker(authorization: str = Header(None)):
         raise HTTPException(status_code=401, detail="Invalid token")
     if payload['role'] != 'player':
         raise HTTPException(status_code=401, detail="Unauthorized")
+    authoriser = await Authoriser.get_instance()
+    if not await authoriser.authenticate_user_uuid(payload['username'],payload['uuid']):
+        raise HTTPException(status_code=401, detail="Invalid token")
     return User(**payload)
 
-def gl_jwt_token_checker(authorization: str = Header(None)):
+async def gl_jwt_token_checker(authorization: str = Header(None)):
     if not authorization or not authorization.startswith("Bearer "):
         raise HTTPException(status_code=401, detail="Not authenticated or invalid token format")
 
@@ -49,9 +54,12 @@ def gl_jwt_token_checker(authorization: str = Header(None)):
         raise HTTPException(status_code=401, detail="Invalid token")
     if payload['role'] != 'gl':
         raise HTTPException(status_code=401, detail="Unauthorized")
+    authoriser = await Authoriser.get_instance()
+    if not await authoriser.authenticate_user_uuid(payload['username'],payload['uuid']):
+        raise HTTPException(status_code=401, detail="Invalid token")
     return User(**payload)
 
-def facilitator_jwt_token_checker(authorization: str = Header(None)):
+async def facilitator_jwt_token_checker(authorization: str = Header(None)):
     if not authorization or not authorization.startswith("Bearer "):
         raise HTTPException(status_code=401, detail="Not authenticated or invalid token format")
 
@@ -64,6 +72,9 @@ def facilitator_jwt_token_checker(authorization: str = Header(None)):
         raise HTTPException(status_code=401, detail="Invalid token")
     if payload['role'] != 'facilitator':
         raise HTTPException(status_code=401, detail="Unauthorized")
+    authoriser = await Authoriser.get_instance()
+    if not await authoriser.authenticate_user_uuid(payload['username'],payload['uuid']):
+        raise HTTPException(status_code=401, detail="Invalid token")
     return User(**payload)
 
 def room_jwt_token_checker(room_token:str):

@@ -6,6 +6,7 @@ import bcrypt
 import os
 from jose import jwt
 from datetime import datetime, timedelta
+import uuid
 
 SECRET_KEY = os.getenv("JWT_SECRET_KEY")
 ALGORITHM = os.getenv("JWT_ALGORITHM") 
@@ -15,6 +16,7 @@ class Authoriser:
 
     def __init__(self):
         self.user_model = UserModel()
+        self.username_uuid_map = {}
         pass
 
     @classmethod
@@ -28,7 +30,7 @@ class Authoriser:
         """
         response = await self.user_model.get_user(login_request.username)
         if response and response['role'] == role and bcrypt.checkpw(login_request.password.encode('utf-8'), response['password'].encode('utf-8')):
-            return await self._get_jwt(User(**response))
+            return await self._issue_jwt(User(**response))
         return JSONResponse(status_code=401, content={'message': f"Error: {role} {login_request.username} not authenticated"})
     
     async def register(self, register_request:RegisterRequest, role:Role) -> JSONResponse:
@@ -102,15 +104,27 @@ class Authoriser:
         response = await self.user_model.get_all_users()
         return response
     
-    async def _get_jwt(self,user:User) -> JSONResponse:
+    async def _issue_jwt(self,user:User) -> JSONResponse:
         """
-        Gets a JWT for a user.
+        Issues a jwt token to user
         """
+        # makes sure that only one token is valid for a user at a time
+        uuid_str = str(uuid.uuid4())
         payload = {
+            'uuid': uuid_str,
             'username': user.username,
             'role': user.role,
             'team_name': user.team_name,
             "exp": datetime.utcnow() + timedelta(hours=12) # 12 hours
         }
+        self.username_uuid_map[user.username] = uuid_str
         token = jwt.encode(payload, SECRET_KEY, algorithm=ALGORITHM,)
         return JSONResponse(status_code=200, content={'token': token})
+
+    async def authenticate_user_uuid(self, username, uuid):
+        """
+        Authenticates a user using a uuid.
+        """
+        if self.username_uuid_map.get(username,None)==uuid:
+            return True
+        return False

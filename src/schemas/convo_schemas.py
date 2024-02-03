@@ -15,7 +15,6 @@ class TalkTokenRequest(BaseModel):
 class TalkRequest(BaseModel):
     god:str
     state:str
-    choiceList: list[str]
 
     @validator('state')
     def state_validation(cls, v):
@@ -29,3 +28,9 @@ class TalkRoomUser(BaseModel):
     role: Role = Field(...,description="Role of the user")
     god: str = Field(...,description="god room of the user")
     state: str = Field(...,description="State of the god")
+
+class Room(BaseModel):
+    team_name:str
+    god:str
+    state:str
+
