@@ -12,14 +12,14 @@ class ChangePasswordRequest(BaseModel):
     # at least 8 characters, 1 uppercase, 1 lowercase, 1 number
     @validator('new_password')
     def password_validation(cls, v):
-        if len(v) < 8:
+        if len(v) < 1:
             raise ValueError('Password must be at least 8 characters')
-        if not any(char.isupper() for char in v):
-            raise ValueError('Password must contain at least 1 uppercase character')
-        if not any(char.islower() for char in v):
-            raise ValueError('Password must contain at least 1 lowercase character')
-        if not any(char.isdigit() for char in v):
-            raise ValueError('Password must contain at least 1 number')
+        # if not any(char.isupper() for char in v):
+        #     raise ValueError('Password must contain at least 1 uppercase character')
+        # if not any(char.islower() for char in v):
+        #     raise ValueError('Password must contain at least 1 lowercase character')
+        # if not any(char.isdigit() for char in v):
+        #     raise ValueError('Password must contain at least 1 number')
         return v
     
 class GLChangePlayerPasswordRequest(BaseModel):
@@ -29,14 +29,14 @@ class GLChangePlayerPasswordRequest(BaseModel):
     
     @validator('new_password')
     def password_validation(cls, v):
-        if len(v) < 8:
+        if len(v) < 1:
             raise ValueError('Password must be at least 8 characters')
-        if not any(char.isupper() for char in v):
-            raise ValueError('Password must contain at least 1 uppercase character')
-        if not any(char.islower() for char in v):
-            raise ValueError('Password must contain at least 1 lowercase character')
-        if not any(char.isdigit() for char in v):
-            raise ValueError('Password must contain at least 1 number')
+        # if not any(char.isupper() for char in v):
+        #     raise ValueError('Password must contain at least 1 uppercase character')
+        # if not any(char.islower() for char in v):
+        #     raise ValueError('Password must contain at least 1 lowercase character')
+        # if not any(char.isdigit() for char in v):
+        #     raise ValueError('Password must contain at least 1 number')
         return v
 
 class GLRegisterPlayerRequest(BaseModel):
@@ -46,20 +46,20 @@ class GLRegisterPlayerRequest(BaseModel):
 
     @validator('username')
     def username_validation(cls, v):
-        if len(v) < 3:
+        if len(v) < 1:
             raise ValueError('Username must be at least 3 characters')
         return v
 
     @validator('password')
     def password_validation(cls, v):
-        if len(v) < 8:
+        if len(v) < 1:
             raise ValueError('Password must be at least 8 characters')
-        if not any(char.isupper() for char in v):
-            raise ValueError('Password must contain at least 1 uppercase character')
-        if not any(char.islower() for char in v):
-            raise ValueError('Password must contain at least 1 lowercase character')
-        if not any(char.isdigit() for char in v):
-            raise ValueError('Password must contain at least 1 number')
+        # if not any(char.isupper() for char in v):
+        #     raise ValueError('Password must contain at least 1 uppercase character')
+        # if not any(char.islower() for char in v):
+        #     raise ValueError('Password must contain at least 1 lowercase character')
+        # if not any(char.isdigit() for char in v):
+        #     raise ValueError('Password must contain at least 1 number')
         return v
 
 class RegisterRequest(BaseModel):
@@ -69,18 +69,18 @@ class RegisterRequest(BaseModel):
 
     @validator('username')
     def username_validation(cls, v):
-        if len(v) < 3:
+        if len(v) < 1:
             raise ValueError('Username must be at least 3 characters')
         return v
     
     @validator('password')
     def password_validation(cls, v):
-        if len(v) < 8:
+        if len(v) < 1:
             raise ValueError('Password must be at least 8 characters')
-        if not any(char.isupper() for char in v):
-            raise ValueError('Password must contain at least 1 uppercase character')
-        if not any(char.islower() for char in v):
-            raise ValueError('Password must contain at least 1 lowercase character')
-        if not any(char.isdigit() for char in v):
-            raise ValueError('Password must contain at least 1 number')
+        # if not any(char.isupper() for char in v):
+        #     raise ValueError('Password must contain at least 1 uppercase character')
+        # if not any(char.islower() for char in v):
+        #     raise ValueError('Password must contain at least 1 lowercase character')
+        # if not any(char.isdigit() for char in v):
+        #     raise ValueError('Password must contain at least 1 number')
         return v
