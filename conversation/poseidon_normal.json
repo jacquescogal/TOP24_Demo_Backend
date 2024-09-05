@@ -1,0 +1,220 @@
+{
+    "god": "Poseidon",
+    "god_message": "Mortal, you dare to traverse the depths to seek my counsel? Speak, and let the waves carry your words.",
+    "image_url":"https://images.unsplash.com/photo-1529154166925-574a0236a4f4?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "choice_1": {
+        "choice_description": "Appeal to Poseidon's mastery over the seas and his critical role in the war.",
+        "god_message": "The seas hold many secrets and possess untold power. Your recognition pleases me.",
+        "choice_score": "good",
+        "choice_1": {
+            "choice_description": "Request Poseidon's blessing for safe passage and naval superiority.",
+            "god_message": "The seas are treacherous, but my blessing can calm the wildest storms.",
+            "choice_score": "good",
+            "choice_1": {
+                "choice_description": "Promise to dedicate every conquered port in his name.",
+                "god_message": "Dedication in my name is a worthy tribute. I shall ponder your devotion as the tide recedes.",
+                "choice_score": "good"
+            },
+            "choice_2": {
+                "choice_description": "Offer a portion of the loot from naval victories as a tribute.",
+                "god_message": "Tributes from the spoils of war are traditional, yet they do not sway me deeply. I will think on this...",
+                "choice_score": "neutral"
+            },
+            "choice_3": {
+                "choice_description": "Claim that without his support, the naval campaign is doomed.",
+                "god_message": "Doom is not a fate sealed by lack of favor alone. Such pressure is unwise, mortal.",
+                "choice_score": "bad"
+            }
+        },
+        "choice_2": {
+            "choice_description": "Seek Poseidon's aid in unleashing natural disasters upon enemies.",
+            "god_message": "Harnessing the fury of the sea against foes is a power I wield with caution.",
+            "choice_score": "neutral",
+            "choice_1": {
+                "choice_description": "Suggest targeting enemy fleets with storms.",
+                "god_message": "Storms as weapons can be unpredictable, yet effective. Your proposal will be considered at dusk.",
+                "choice_score": "good"
+            },
+            "choice_2": {
+                "choice_description": "Propose to disrupt enemy supply lines with sea monsters.",
+                "god_message": "Monsters of the deep are allies not easily commanded. I must deliberate on their use.",
+                "choice_score": "neutral"
+            },
+            "choice_3": {
+                "choice_description": "Insist on an immediate and devastating tsunami.",
+                "god_message": "The destructive force of a tsunami is not to be summoned lightly. Your insistence borders on folly.",
+                "choice_score": "bad"
+            }
+        },
+        "choice_3": {
+            "choice_description": "Enquire about ancient maritime rituals to honor the sea and gain favor.",
+            "god_message": "Rituals carry the weight of tradition and respect for the sea. Your inquiry shows wisdom.",
+            "choice_score": "neutral",
+            "choice_1": {
+                "choice_description": "Propose a grand festival celebrating the sea's bounty.",
+                "god_message": "A festival in honor of the sea's bounty could indeed please the depths. I will contemplate your respect.",
+                "choice_score": "good"
+            },
+            "choice_2": {
+                "choice_description": "Suggest the revival of an ancient, forgotten ceremony.",
+                "god_message": "The old ways hold power, but reviving them requires true understanding. I shall consider this...",
+                "choice_score": "neutral"
+            },
+            "choice_3": {
+                "choice_description": "Demand knowledge of the most powerful ritual to ensure victory.",
+                "god_message": "Demanding secrets of great power is dangerous. Tread carefully, mortal, for the sea does not suffer arrogance.",
+                "choice_score": "bad"
+            }
+        }
+    },
+    "choice_2": {
+        "choice_description": "Commend Poseidon's role in the Trojan War and draw parallels to the current conflict.",
+        "god_message": "The echoes of the past shape the waves of the present. Your memory serves you well.",
+        "choice_score": "neutral",
+        "choice_1": {
+            "choice_description": "Highlight the strategic advantage of controlling the seas.",
+            "god_message": "Control of the seas has turned the tide of many conflicts. Your strategy is noted.",
+            "choice_score": "good",
+            "choice_1": {
+                "choice_description": "Offer intelligence on enemy naval movements.",
+                "god_message": "Intelligence can be as crucial as the mightiest wave. I will consider your offering as the sun sets.",
+                "choice_score": "good"
+            },
+            "choice_2": {
+                "choice_description": "Propose a blockade to starve enemy cities.",
+                "god_message": "A blockade is a siege upon the sea. Its effectiveness depends on resolve. I will think on this...",
+                "choice_score": "neutral"
+            },
+            "choice_3": {
+                "choice_description": "Suggest sacrificing prisoners to demoralize the enemy.",
+                "god_message": "Sacrifice is a delicate matter that demands respect, not strategy. Your suggestion is ill-advised.",
+                "choice_score": "bad"
+            }
+        },
+        "choice_2": {
+            "choice_description": "Ask about Poseidon's famed trident and its powers.",
+            "god_message": "My trident controls the seas and shakes the earth. It is a symbol of my dominion.",
+            "choice_score": "bad",
+            "choice_1": {
+                "choice_description": "Express desire to wield it to unite the sea and land against foes.",
+                "god_message": "The trident is not for mortal hands, yet your ambition is noteworthy. I shall ponder your audacity.",
+                "choice_score": "good"
+            },
+            "choice_2": {
+                "choice_description": "Inquire if a replica could be made for mortal use.",
+                "god_message": "A replica, though devoid of true power, could symbolize unity. An interesting concept...",
+                "choice_score": "neutral"
+            },
+            "choice_3": {
+                "choice_description": "Demand its power be used to end the war swiftly.",
+                "god_message": "Demands upon a god, especially for my trident's power, show a lack of respect. Consider your position, mortal.",
+                "choice_score": "bad"
+            }
+        },
+        "choice_3": {
+            "choice_description": "Reflect on the importance of wisdom and strength in leadership.",
+            "god_message": "Wisdom and strength are the currents that guide a leader through stormy seas.",
+            "choice_score": "good",
+            "choice_1": {
+                "choice_description": "Pledge to lead with Poseidon's virtues in mind.",
+                "god_message": "A pledge to emulate the sea's depth and might is admirable. I will reflect on your words with the moon's rise.",
+                "choice_score": "good"
+            },
+            "choice_2": {
+                "choice_description": "Request Poseidon's guidance in difficult decisions.",
+                "god_message": "Seeking guidance is a sign of strength, not weakness. Your request will be considered.",
+                "choice_score": "neutral"
+            },
+            "choice_3": {
+                "choice_description": "Boast of your own leadership, comparing it to Poseidon's.",
+                "god_message": "Comparisons to the divine are fraught with peril. Your pride may lead you astray.",
+                "choice_score": "bad"
+            }
+        }
+    },
+    "choice_3": {
+        "choice_description": "Acknowledge the complexity of divine politics and seek Poseidon's alliance.",
+        "god_message": "The tides of divine politics are ever shifting. Your awareness is a boon.",
+        "choice_score": "good",
+        "choice_1": {
+            "choice_description": "Promise to support Poseidon's interests among mortals.",
+            "god_message": "Supporting my interests ensures that the currents favor us both. Your offer holds merit.",
+            "choice_score": "good",
+            "choice_1": {
+                "choice_description": "Vow to build temples at every port city in his honor.",
+                "god_message": "Temples in my honor serve as beacons for my blessings. I shall consider your dedication as the waves whisper.",
+                "choice_score": "good"
+            },
+            "choice_2": {
+                "choice_description": "Offer to mediate conflicts that involve his domain.",
+                "god_message": "Mediation requires wisdom and courage. Your offer will be weighed with the tide.",
+                "choice_score": "neutral"
+            },
+            "choice_3": {
+                "choice_description": "Threaten to align with other gods if he refuses.",
+                "god_message": "Threats to a god, especially one as mighty as I, are like drops in the ocean. Beware the undertow.",
+                "choice_score": "bad"
+            }
+        },
+        "choice_2": {
+            "choice_description": "Inquire about Poseidon's rivals and offer assistance against them.",
+            "god_message": "Rivalries within the pantheon are as deep as the ocean. Your offer to assist is intriguing.",
+            "choice_score": "neutral",
+            "choice_1": {
+                "choice_description": "Propose a plan to enhance Poseidon's standing.",
+                "god_message": "Enhancing my standing requires strategy and foresight. I will mull over your plan.",
+                "choice_score": "good"
+            },
+            "choice_2": {
+                "choice_description": "Suggest spreading rumors to weaken rivals.",
+                "god_message": "Rumors are like ripples; they can grow, but their impact is uncertain. I shall think on this...",
+                "choice_score": "neutral"
+            },
+            "choice_3": {
+                "choice_description": "Demand decisive action against his foes.",
+                "god_message": "Demands for action against divine beings are reckless. Reflect on the waves you wish to create.",
+                "choice_score": "bad"
+            }
+        },
+        "choice_3": {
+            "choice_description": "Offer a treaty to formalize the alliance and its terms.",
+            "god_message": "Treaties among gods and mortals are rare, bound by the sea's salt. Your proposal warrants consideration.",
+            "choice_score": "good",
+            "choice_1": {
+                "choice_description": "Suggest terms that benefit both sides equally.",
+                "god_message": "Equity in terms is the bedrock of a strong alliance. Your foresight is commendable. I will deliberate on this as the seas calm.",
+                "choice_score": "good"
+            },
+            "choice_2": {
+                "choice_description": "Insist on favorable terms for humanity, citing desperate times.",
+                "god_message": "Desperation does not justify imbalance. The sea grants favors to those who respect its might.",
+                "choice_score": "neutral"
+            },
+            "choice_3": {
+                "choice_description": "Threaten to reveal his secrets if he declines.",
+                "god_message": "The ocean's depths hide many secrets. Revealing them is treacherous, as is your threat.",
+                "choice_score": "bad"
+            }
+        }
+    },
+    "bonus_question":{
+      "choice_description": "One more thing...",
+      "god_message": "Which NTU building is known for its iconic design resembling a giant cruise ship?",
+      "choice_score": "neutral",
+      "choice_1": {
+          "choice_description": "The Hive",
+          "god_message": "Not quite. I need time to think on your request. Return to your world, mortal.",
+          "choice_score": "bad"
+      },
+      "choice_2": {
+          "choice_description": "Gaia building",
+          "god_message": "Not quite. I need time to think on your request. Return to your world, mortal.",
+          "choice_score": "bad"
+      },
+      "choice_3": {
+          "choice_description": "ADM building",
+          "god_message": "Very good. I shall consider your request. Return to your world, mortal.",
+          "choice_score": "good"
+      }
+  }
+}

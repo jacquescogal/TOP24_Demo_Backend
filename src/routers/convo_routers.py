@@ -27,8 +27,10 @@ async def get_convo(talk_request: TalkRequest, user:User = Depends(player_jwt_to
     path="/talk/get_token"
 )
 async def get_token(talk_token_request: TalkTokenRequest ,user:User = Depends(player_jwt_token_checker)):
+    print(talk_token_request.cipher_text)
     talk_controller = await ConversationController.get_instance()
-    response = await talk_controller.get_room_jwt(user,talk_token_request.god,talk_token_request.state)
+    print(talk_token_request.cipher_text)
+    response = await talk_controller.get_room_jwt(user,talk_token_request.cipher_text)
     return response
 
 @talk_router.websocket(path="/talk/connect/")
@@ -43,6 +45,12 @@ async def connect(websocket: WebSocket,talkRoomUser:TalkRoomUser=Depends(room_jw
             data = await websocket.receive_text()
             # get json
             json_data = json.loads(data)
+            room_started = await conversationController.is_room_started(room)
+            if room_started==False and json_data['type']!='start_room':
+                await websocket.send_text(json.dumps({'type':'room_not_started','user_count':await connectionController.get_connection_count(room)}))
+                continue
+            elif json_data['type']=='start_room':
+                await conversationController.set_start_room(room)
             if json_data['type'] == 'ping':
                 time_left=await connectionController.get_time_left(room)
                 if time_left<=0:
@@ -64,7 +72,8 @@ async def connect(websocket: WebSocket,talkRoomUser:TalkRoomUser=Depends(room_jw
                             }, room)
                             
                             await asyncio.sleep(2)
-                            await connectionController.start_room(room)
+                            bonus_time = convo.get('bonus_time',20)
+                            await connectionController.start_room(room,room_time=bonus_time)
                             await connectionController.broadcast(
                             {
                                 'type':'start_room',
@@ -118,7 +127,8 @@ async def connect(websocket: WebSocket,talkRoomUser:TalkRoomUser=Depends(room_jw
                         }, room)
                         
                         await asyncio.sleep(2)
-                        await connectionController.start_room(room)
+                        bonus_time = convo.get('bonus_time',20)
+                        await connectionController.start_room(room,room_time=bonus_time)
                         await connectionController.broadcast(
                         {
                             'type':'start_room',
@@ -154,7 +164,6 @@ async def connect(websocket: WebSocket,talkRoomUser:TalkRoomUser=Depends(room_jw
                             'total_time':connectionController.total_time,
                             **convo
                         }, room)
-                    continue
                 elif choice_made==False:
                     convo= await conversationController.get_convo(room)
                     await websocket.send_text(
@@ -166,8 +175,51 @@ async def connect(websocket: WebSocket,talkRoomUser:TalkRoomUser=Depends(room_jw
                             'total_time':connectionController.total_time,
                             **convo
                         }))
-                    continue
-            elif json_data['type'] == 'restart':
+                if await connectionController.get_connection_count(room) == await conversationController.get_voted_count(room):
+                    await websocket.send_text(json.dumps({'type':'times_up','time_left':0}))
+                    locked_in=await conversationController.choice_lock_int(room,stage=json_data['stage'])
+                    if locked_in==True:
+                        room_tuple=(room.team_name,room.god,room.state)
+                        conversationController.wait_lock[room_tuple]=True
+                        convo= await conversationController.get_convo(room)
+                        # await 2 seconds
+                        await connectionController.broadcast(
+                        {
+                            'type':'show_vote',
+                            'user_count':await connectionController.get_connection_count(room),
+                            'time_left':await connectionController.get_time_left(room) if convo['status']=='active' else 0,
+                            'total_time':connectionController.total_time,
+                            **convo
+                        }, room)
+                        
+                        await asyncio.sleep(2)
+                        bonus_time = convo.get('bonus_time',20)
+                        await connectionController.start_room(room,room_time=bonus_time)
+                        await connectionController.broadcast(
+                        {
+                            'type':'start_room',
+                            'user_count':await connectionController.get_connection_count(room),
+                            'time_left':await connectionController.get_time_left(room) if convo['status']=='active' else 0,
+                            'total_time':connectionController.total_time,
+                            **convo
+                        }, room)
+                        conversationController.wait_lock[room_tuple]=False
+                        continue
+                    else:
+                        room_tuple=(room.team_name,room.god,room.state)
+                        if (conversationController.wait_lock.get(room_tuple,False)==False):
+                            convo= await conversationController.get_convo(room)
+                            await websocket.send_text(json.dumps(
+                            {
+                                'type':'pong',
+                                'user_count':await connectionController.get_connection_count(room),
+                                'time_left':await connectionController.get_time_left(room) if convo['status']=='active' else 0,
+                                'total_time':connectionController.total_time,
+                                **convo
+                            }))
+                        continue
+
+            elif json_data['type'] == 'restart' or json_data['type'] == 'start_room':
                 await conversationController.restart_room(room)
                 await connectionController.start_room(room)
                 convo= await conversationController.get_convo(room)
@@ -179,6 +231,17 @@ async def connect(websocket: WebSocket,talkRoomUser:TalkRoomUser=Depends(room_jw
                         'total_time':connectionController.total_time,
                         **convo
                     }, room)
+            elif json_data['type'] == 'next_room':
+                new_room, pass_fail = await conversationController.next_room(room)
+                convo = await conversationController.get_convo(room)
+                await connectionController.broadcast(
+                    {
+                        'type':'next_room',
+                        'pass_fail':pass_fail,
+                        'user_count':await connectionController.get_connection_count(room),
+                        'next_room':new_room
+                    },room
+                )
             else:
                 await connectionController.broadcast({'type':'user_update','user_count':await connectionController.get_connection_count(room)}, room)
     except Exception as e:

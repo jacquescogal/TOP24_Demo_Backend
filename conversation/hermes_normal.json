@@ -1,0 +1,221 @@
+{
+    "god": "Hermes",
+    "god_message": "Ah, a mortal ventures into my domain, swift and cunning. Speak your purpose, for time is of the essence.",
+    "image_url":"https://images.unsplash.com/photo-1533157055472-38bf7885b886?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "choice_1": {
+      "choice_description": "Pledge to deliver messages faster than the wind in his name.",
+      "god_message": "Speed is my essence, and your pledge intrigues me. But remember, swiftness without wisdom is folly.",
+      "choice_score": "good",
+      "choice_1": {
+        "choice_description": "Promise to use wisdom in all endeavors.",
+        "god_message": "Wisdom and speed combined can outmatch the mightiest of opponents. Your words hold promise.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Commit to establishing a network of messengers.",
+          "god_message": "A network, you say? A grand vision! I shall consider lending my aid...",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Suggest a competition of speed to prove worthiness.",
+          "god_message": "Competition stirs the spirit, but it's the outcome that remains uncertain. I will ponder your proposal...",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Offer to steal secrets from his rivals.",
+          "god_message": "Stealing, a bold move. It's not without risk. I shall take my time to decide...",
+          "choice_score": "bad"
+        }
+      },
+      "choice_2": {
+        "choice_description": "Propose to enhance his temples with offerings.",
+        "god_message": "Offerings are always welcome, but they do not alone sway my favor.",
+        "choice_score": "neutral",
+        "choice_1": {
+          "choice_description": "Offer rare artifacts as a token of devotion.",
+          "god_message": "Rare artifacts, you say? Intriguing, but I will consider my options...",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Suggest hosting games in his honor.",
+          "god_message": "Games in my honor could spread my fame. An interesting idea, I will think on it...",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Promise to spread rumors of his greatness.",
+          "god_message": "Rumors are fickle, and not always believable. I need time to weigh this...",
+          "choice_score": "bad"
+        }
+      },
+      "choice_3": {
+        "choice_description": "Vow to outwit his enemies in his name.",
+        "god_message": "Outwitting enemies is a worthy endeavor, and aligns with my nature.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Plan elaborate schemes against his foes.",
+          "god_message": "Elaborate schemes? Your ambition is clear. Let me contemplate your role in this...",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Create diversions to confuse his adversaries.",
+          "god_message": "Diversions could be useful, but the execution must be flawless. I will think on it...",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Seek to betray those who oppose him subtly.",
+          "god_message": "Betrayal is a delicate matter. It requires careful thought. I shall deliberate...",
+          "choice_score": "bad"
+        }
+      }
+    },
+    "choice_2": {
+      "choice_description": "Offer insight into the movements of his adversaries.",
+      "god_message": "Knowledge is power, especially concerning one's foes. Speak, and I may listen.",
+      "choice_score": "neutral",
+      "choice_1": {
+        "choice_description": "Share secrets that could turn the tide of battles.",
+        "god_message": "Secrets that sway battles are of great value. Your offer has merit.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Reveal the hidden weaknesses of his enemies.",
+          "god_message": "Ah, weaknesses, you say? Such knowledge is tempting. I will consider your proposition...",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Propose to spy on his enemies continuously.",
+          "god_message": "Continuous espionage? A useful tactic, indeed. I need time to think it over...",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Suggest exploiting the discord among his foes.",
+          "god_message": "Exploiting discord is a cunning strategy, yet it requires subtlety. I shall ponder your suggestion...",
+          "choice_score": "bad"
+        }
+      },
+      "choice_2": {
+        "choice_description": "Present a detailed map of the known world.",
+        "god_message": "A map of the world holds many secrets and paths. An intriguing gift.",
+        "choice_score": "neutral",
+        "choice_1": {
+          "choice_description": "Offer to update and expand it with his guidance.",
+          "god_message": "Your offer to expand knowledge under my guidance is appealing. Let me consider it...",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Suggest the map can be used to control trade routes.",
+          "god_message": "Controlling trade routes is a powerful position. A considerable thought, indeed...",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Propose to hide secret paths known only to him.",
+          "god_message": "Secret paths can be advantageous, yet also risky. I will take my time to decide...",
+          "choice_score": "bad"
+        }
+      },
+      "choice_3": {
+        "choice_description": "Implore his help in navigating the complexities of the divine.",
+        "god_message": "Navigating divine complexities requires more than mere mortal wit.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Request guidance to gain favor with other gods.",
+          "god_message": "Seeking favor among gods is a wise strategy. Your request holds weight...",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Ask for secrets to wield against divine adversaries.",
+          "god_message": "Secrets against the divine? A dangerous path. I will think on your boldness...",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Plead for protection from divine wrath.",
+          "god_message": "Protection from divine wrath is no small request. I must consider the implications...",
+          "choice_score": "bad"
+        }
+      }
+    },
+    "choice_3": {
+      "choice_description": "Invoke his love for travel and adventure.",
+      "god_message": "Travel and adventure stir the heart and the mind. What do you propose?",
+      "choice_score": "good",
+      "choice_1": {
+        "choice_description": "Propose to explore unknown realms together.",
+        "god_message": "Exploring unknown realms is a call to adventure. Your proposal intrigues me...",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Suggest discovering new trade routes.",
+          "god_message": "New trade routes open the world to endless possibilities. I am intrigued...",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Offer to seek out legendary artifacts.",
+          "god_message": "Legendary artifacts hold power and mystery. Your quest could be of interest...",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Promise to name new lands in his honor.",
+          "god_message": "Naming lands in my honor is a grand gesture, but it is the deeds that truly count. I will contemplate...",
+          "choice_score": "bad"
+        }
+      },
+      "choice_2": {
+        "choice_description": "Suggest adventures that could increase his followers.",
+        "god_message": "Adventures that swell the ranks of my followers? Tell me more.",
+        "choice_score": "neutral",
+        "choice_1": {
+          "choice_description": "Plan to establish festivals in new cities.",
+          "god_message": "Festivals can indeed spread joy and my renown. A promising thought...",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Offer to write tales of his exploits.",
+          "god_message": "Tales of my exploits can inspire, but they must capture the imagination. I shall consider...",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Promise to erect statues in uncharted territories.",
+          "god_message": "Statues in uncharted territories? A bold move, but their impact is uncertain. I need time to weigh this...",
+          "choice_score": "bad"
+        }
+      },
+      "choice_3": {
+        "choice_description": "Encourage a journey to reclaim lost relics.",
+        "god_message": "Reclaiming lost relics could prove a worthy challenge and boon.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Seek the sandals of Hermes himself.",
+          "god_message": "Seeking my sandals? A quest of significant danger and reverence. I am intrigued...",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Hunt for ancient texts with divine knowledge.",
+          "god_message": "Ancient texts hold knowledge long forgotten. Your search could be valuable...",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Promise to recover items of personal value to him.",
+          "god_message": "Items of personal value? The sentiment is appreciated, but I must deliberate on its worth...",
+          "choice_score": "bad"
+        }
+      }
+    },
+    "bonus_question":{
+      "choice_description": "One more thing...",
+      "god_message": "How many campus bus lines are there in ntu?",
+      "choice_score": "neutral",
+      "choice_1": {
+          "choice_description": "6",
+          "god_message": "Not quite. I need time to think on your request. Return to your world, mortal.",
+          "choice_score": "bad"
+      },
+      "choice_2": {
+          "choice_description": "5",
+          "god_message": "Not quite. I need time to think on your request. Return to your world, mortal.",
+          "choice_score": "bad"
+      },
+      "choice_3": {
+          "choice_description": "4",
+          "god_message": "Very good. I shall consider your request. Return to your world, mortal.",
+          "choice_score": "good"
+      }
+  }
+  }
+  

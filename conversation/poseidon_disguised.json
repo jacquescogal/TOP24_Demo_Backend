@@ -1,0 +1,95 @@
+{
+    "god": "Poseidon",
+    "god_message": "Before you stands a majestic horse, its coat shimmering like the sea under sunlight. Its eyes hold a depth that seems almost... divine.",
+    "image_url":"https://images.unsplash.com/photo-1616271939581-591f6a7abb4d?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "choice_1": {
+      "choice_description": "Approach with reverence, offering a handful of fresh water.",
+      "god_message": "The horse lowers its head to drink, its eyes gleaming with approval.",
+      "choice_score": "good",
+      "choice_1": {
+        "choice_description": "Speak of the bond between sea and shore, and the life it brings.",
+        "god_message": "The horse neighs softly, a sense of understanding passing between you.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Promise to protect the seas and all who dwell within.",
+          "god_message": "The horse transforms into the towering figure of Poseidon, who nods in approval of your vow.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Inquire about the secrets of the deep, showing your curiosity.",
+          "god_message": "Poseidon reveals himself, mildly pleased by your interest but cautious in his response.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Boast of your ability to conquer the seas.",
+          "god_message": "The sea's deity fades away, offended by your arrogance, leaving only a splash of water behind.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_2": {
+        "choice_description": "Mention tales of creatures both feared and revered by sailors.",
+        "god_message": "The horse listens, its gaze intense as if weighing the truth of your words.",
+        "choice_score": "neutral",
+        "choice_1": {
+          "choice_description": "Praise the horse's grace, likening it to the sea's majesty.",
+          "god_message": "The horse seems pleased, revealing itself as Poseidon, who regards you with a hint of respect.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Continue sharing stories, focusing on the might of the ocean.",
+          "god_message": "Poseidon, in his disguise, remains beside you, listening but ultimately unswayed by your tales.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Claim you could tame any beast of the sea.",
+          "god_message": "The deity of the sea vanishes, leaving a cold mist, as your claim offends him.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_3": {
+        "choice_description": "Attempt to mount the horse, asserting dominance.",
+        "god_message": "The horse rears up, throwing you off before vanishing in a mist of sea spray, offended by your presumption.",
+        "choice_score": "bad"
+      }
+    },
+    "choice_2": {
+      "choice_description": "Sing a song of the sailors, paying homage to the mysteries of the sea.",
+      "god_message": "The horse listens attentively, its mane seeming to sway with the melody.",
+      "choice_score": "neutral",
+      "choice_1": {
+        "choice_description": "Dedicate the song to the spirits of the sea, seeking their blessing.",
+        "god_message": "The air around you cools, and the horse transforms into Poseidon, moved by your tribute.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Offer a votive in the form of a sea shell, pledging to honor the sea.",
+          "god_message": "Poseidon accepts your offer, his presence affirming your pledge as worthy.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Ask for guidance on navigating the treacherous waters.",
+          "god_message": "The god, though present, retreats into the sea's depths, your request leaving him unimpressed.",
+          "choice_score": "bad"
+        },
+        "choice_3": {
+          "choice_description": "Suggest that the sea's secrets are yours to discover.",
+          "god_message": "Poseidon, intrigued but noncommittal, vanishes with the tide, pondering your audacity.",
+          "choice_score": "neutral"
+        }
+      },
+      "choice_2": {
+        "choice_description": "Hum a tune of your own, inspired by the ocean's vastness.",
+        "god_message": "The horse seems indifferent, the sea breeze quiet around you.",
+        "choice_score": "neutral"
+      },
+      "choice_3": {
+        "choice_description": "Boast of your navigational skills, claiming mastery over the sea.",
+        "god_message": "A gust of wind chills you as the horse disappears, your arrogance repelling the sea's guardian.",
+        "choice_score": "bad"
+      }
+    },
+    "choice_3": {
+      "choice_description": "Walk past, indifferent to the horse's divine aura.",
+      "god_message": "The horse watches you go, its gaze lingering before it vanishes, a missed opportunity echoing in the waves.",
+      "choice_score": "bad"
+    }
+  }

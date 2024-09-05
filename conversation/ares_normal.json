@@ -1,0 +1,220 @@
+{
+    "god": "Ares",
+    "god_message": "Ah, mortal! You dare to summon Ares, the god of war? Speak swiftly, for my patience wears thin and my thirst for battle never ceases.",
+    "image_url":"https://images.unsplash.com/photo-1552820755-733e038f86d5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "choice_1": {
+      "choice_description": "Appeal to Ares' love of battle by promising a war greater than any before.",
+      "god_message": "A grand war, you say? My interest is piqued. Continue, mortal, and make your case compelling.",
+      "choice_score": "good",
+      "choice_1": {
+        "choice_description": "Vow to dedicate every victory in his name, immortalizing his glory.",
+        "god_message": "Ah, to have my name sung in every victory... A tempting offer indeed. Your words carry weight.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Offer to erect statues in every city conquered.",
+          "god_message": "Statues in my honor across the lands? A fitting tribute. I shall consider your offer as the day ends.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Propose a feast in his honor after every battle won.",
+          "god_message": "Feasts are for the living. I crave the clamor of battle, not the quiet of celebration. Still, I will think on it.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Insist that only through his might can the war be won.",
+          "god_message": "Might alone does not secure victory, mortal. It is strategy and will. Your insistence is noted, but ill-placed.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_2": {
+        "choice_description": "Promise a stream of battles, ensuring endless conflict.",
+        "god_message": "Endless conflict? Such a promise holds allure, but can you truly deliver?",
+        "choice_score": "neutral",
+        "choice_1": {
+          "choice_description": "Suggest allying with those who seek perpetual strife.",
+          "god_message": "Allies in strife... Interesting. I will ponder your strategic approach.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Admit the difficulty but vow to strive for it under his guidance.",
+          "god_message": "Your honesty is rare, and your ambition commendable. I will consider your dedication.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Claim you have enemies that will never cease to rise against you.",
+          "god_message": "Enemies reborn from ashes? A bold claim, yet without proof, it is but wind. I am unconvinced.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_3": {
+        "choice_description": "Entreat him to train your armies, making them unbeatable.",
+        "god_message": "Train your armies? A worthy task, but it requires more than mere strength.",
+        "choice_score": "bad",
+        "choice_1": {
+          "choice_description": "Offer to turn your soldiers into disciples of his teachings.",
+          "god_message": "Disciples of war, spreading my teachings? This is an offer of depth. I will contemplate.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Pledge that their first and last words each day will be his name.",
+          "god_message": "Words are but air if not backed by action. Yet, your pledge intrigues me. I shall consider.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Boast that with his training, your army will need no other god.",
+          "god_message": "To forsake all other gods is folly. The pantheon's wrath is not lightly incurred. Reflect on your arrogance.",
+          "choice_score": "bad"
+        }
+      }
+    },
+    "choice_2": {
+      "choice_description": "Promise the spoils of war, offering treasures untold.",
+      "god_message": "Treasures, you say? My appetite for war is not easily sated by gold or jewels. Impress me further.",
+      "choice_score": "neutral",
+      "choice_1": {
+        "choice_description": "Swear to deliver the weapons of fallen enemies as tribute.",
+        "god_message": "Weapons of the vanquished, a tribute with meaning. This speaks to my essence. Continue.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Pledge to seek out legendary weapons for his collection.",
+          "god_message": "Legendary weapons, you say? Such artifacts could be of interest. Your proposal holds merit.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Offer the armor and shields of enemies to adorn his temple.",
+          "god_message": "Armors and shields as decorations? They are but trinkets unless worn in battle. Still, I will ponder your offer.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Boast that no other god will receive such grand offerings.",
+          "god_message": "Comparing offerings to those given to other gods? Hubris. My decisions are not swayed by competition for favor.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_2": {
+        "choice_description": "Vow to conquer lands in his name, expanding his domain.",
+        "god_message": "Expanding my domain, you propose? A tempting vision. Elaborate on your strategy.",
+        "choice_score": "neutral",
+        "choice_1": {
+          "choice_description": "Plan to dedicate each conquered city to him, building temples in his honor.",
+          "god_message": "Temples in my honor across conquered cities... A worthy homage. I will consider your commitment.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Suggest that the fear of his wrath will make enemies flee.",
+          "god_message": "Fear can be a weapon, but it is respect that lasts. Your suggestion is noted, but it lacks depth.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Claim that his rivals will envy his expanding reach.",
+          "god_message": "Envy among gods is petty. My focus is on glory and power, not the opinions of my peers.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_3": {
+        "choice_description": "Entice him with tales of heroic deeds in his name.",
+      "god_message": "Tales of heroism, you offer? I am intrigued by acts, not words. Prove your valor.",
+      "choice_score": "bad",
+      "choice_1": {
+        "choice_description": "Promise to spread his legends through bards across the lands.",
+        "god_message": "Legends that inspire the next generation of warriors... This is a worthy cause. I will think on this.",
+        "choice_score": "good"
+      },
+      "choice_2": {
+        "choice_description": "Suggest organizing games and contests in his honor.",
+        "god_message": "Games and contests can hone skills, but true heroism is found on the battlefield. Still, I shall consider.",
+        "choice_score": "neutral"
+      },
+      "choice_3": {
+        "choice_description": "Boast that no deed will be greater than those done in his name.",
+        "god_message": "Boasting of deeds yet undone? Action, not words, will prove your worth. Reflect on your boldness.",
+        "choice_score": "bad"
+      }
+    }
+  },
+  "choice_3": {
+    "choice_description": "Invoke his competitive spirit, challenging him to surpass his past triumphs.",
+    "god_message": "You dare to challenge me? My past triumphs are but shadows of the glory yet to come. Speak carefully, mortal.",
+    "choice_score": "good",
+    "choice_1": {
+      "choice_description": "Propose a contest where his champions face off against formidable foes.",
+      "god_message": "A contest of champions, you say? This could prove entertaining... and worthy of my attention.",
+      "choice_score": "good",
+      "choice_1": {
+        "choice_description": "Offer to personally lead his champions into battle.",
+        "god_message": "Leading my champions? A bold claim. Your courage is noted. I shall deliberate as the day wanes.",
+        "choice_score": "good"
+      },
+      "choice_2": {
+        "choice_description": "Suggest that the victors receive blessings and weapons from him.",
+        "god_message": "Blessings and weapons for victors... A fitting reward. Your proposal intrigues me.",
+        "choice_score": "neutral"
+      },
+      "choice_3": {
+        "choice_description": "Claim that no other god's champions could stand against his.",
+        "god_message": "Comparing my champions to those of other gods? Such confidence... or folly. I shall consider.",
+        "choice_score": "bad"
+      }
+    },
+    "choice_2": {
+      "choice_description": "Challenge him to devise a strategy that would ensure a swift victory.",
+      "god_message": "You challenge my strategic mind? Very well, mortal. Present your situation.",
+      "choice_score": "neutral",
+      "choice_1": {
+        "choice_description": "Outline a plan that highlights aggressive tactics.",
+        "god_message": "Aggression, when applied rightly, can be decisive. Your plan has merit. I will ponder your tactics.",
+        "choice_score": "good"
+      },
+      "choice_2": {
+        "choice_description": "Admit your current strategies are failing and seek his counsel.",
+        "god_message": "Admitting weakness in pursuit of strength... A wise approach. I will consider your request.",
+        "choice_score": "neutral"
+      },
+      "choice_3": {
+        "choice_description": "Insist that without his guidance, the war is lost.",
+        "god_message": "Such dependency on divine intervention? Strength must come from within as well. Reflect on your reliance.",
+        "choice_score": "bad"
+      }
+    },
+    "choice_3": {
+      "choice_description": "Vow to outdo the feats of his legendary warriors.",
+      "god_message": "To surpass my greatest warriors? Your ambition is as vast as the fields of conflict. Explain.",
+      "choice_score": "bad",
+      "choice_1": {
+        "choice_description": "Commit to a life dedicated to mastering the art of war.",
+        "god_message": "A life dedicated to war is a path few choose. Your commitment intrigues me. I will consider your dedication.",
+        "choice_score": "good"
+      },
+      "choice_2": {
+        "choice_description": "Promise to seek challenges that even his warriors would hesitate to face.",
+        "god_message": "Seeking greater challenges is the mark of a true warrior. Yet, caution should be your ally. I shall ponder.",
+        "choice_score": "neutral"
+      },
+      "choice_3": {
+        "choice_description": "Boast that you will become a legend that will overshadow his own.",
+        "god_message": "To overshadow a god? Mortal, your hubris could be your downfall. Beware the path you tread.",
+        "choice_score": "bad"
+      }
+    }
+  },
+  "bonus_question":{
+    "choice_description": "One more thing...",
+    "god_message": "How many undergraduate halls are there in NTU?",
+    "choice_score": "neutral",
+    "choice_1": {
+        "choice_description": "16",
+        "god_message": "Not quite. I need time to think on your request. Return to your world, mortal.",
+        "choice_score": "bad"
+    },
+    "choice_2": {
+        "choice_description": "27",
+        "god_message": "Not quite. I need time to think on your request. Return to your world, mortal.",
+        "choice_score": "bad"
+    },
+    "choice_3": {
+        "choice_description": "23",
+        "god_message": "Very good. I shall consider your request. Return to your world, mortal.",
+        "choice_score": "good"
+    }
+}
+  }

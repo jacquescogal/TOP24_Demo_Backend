@@ -1,0 +1,96 @@
+{
+    "god": "Hephaestus",
+    "god_message": "Before you lies a meticulously crafted bronze anvil, radiating an unusual warmth. The air around it vibrates with the echo of a forge not seen but deeply felt.",
+    "image_url":"https://images.unsplash.com/photo-1499371593239-c8522ba60a74?q=80&w=1977&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "choice_1": {
+      "choice_description": "Admire the anvil's craftsmanship, recognizing the divine touch.",
+      "god_message": "The anvil seems to glow slightly brighter, as if pleased by your appreciation.",
+      "choice_score": "good",
+      "choice_1": {
+        "choice_description": "Touch the anvil reverently, acknowledging its creator's mastery.",
+        "god_message": "A gentle warmth envelops your hand, the presence around the anvil growing stronger.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Speak aloud a vow to honor craftsmanship and creativity in all forms.",
+          "god_message": "The anvil transforms into the imposing figure of Hephaestus, who nods in approval at your vow.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Ask the anvil to grant you strength in the upcoming battles.",
+          "god_message": "Hephaestus reveals himself, appreciating your respect but with a hint of disappointment at your request.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Boast about your own abilities to forge weapons.",
+          "god_message": "The warmth fades, and the anvil returns to cold bronze as Hephaestus departs, unimpressed.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_2": {
+        "choice_description": "Mention the anvil’s resemblance to legendary artifacts.",
+        "god_message": "The air around the anvil shimmers, intrigued by your knowledge.",
+        "choice_score": "neutral",
+        "choice_1": {
+          "choice_description": "Correct yourself and praise the unique qualities of the anvil.",
+          "god_message": "The anvil's warmth increases, pleased by your discerning eye, revealing Hephaestus who nods in approval.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Continue discussing various legendary artifacts.",
+          "god_message": "The anvil remains still, its warmth not increasing nor fading, as if waiting for something more.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Attempt to use the anvil to forge a simple tool.",
+          "god_message": "The anvil cools rapidly, and the divine presence vanishes, offended by your presumption.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_3": {
+        "choice_description": "Try to move the anvil, testing its weight.",
+        "god_message": "The anvil is immovable, and its warmth begins to fade, a sign of disapproval.",
+        "choice_score": "bad"
+      }
+    },
+    "choice_2": {
+      "choice_description": "Sing a hymn dedicated to the gods of the forge, eyeing the anvil.",
+      "god_message": "A faint hum accompanies your song, as if the anvil itself is listening.",
+      "choice_score": "neutral",
+      "choice_1": {
+        "choice_description": "Direct your hymn to Hephaestus, praising his unmatched skill.",
+        "god_message": "The anvil vibrates with energy, a powerful presence manifesting as Hephaestus appears, moved by your hymn.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Offer a silent prayer for Hephaestus' blessing in your quest.",
+          "god_message": "Hephaestus, fully revealed, nods in solemn agreement, touched by your faith.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Praise the anvil's role in creating legendary weapons.",
+          "god_message": "Hephaestus, though pleased, remains partially hidden, acknowledging your praise with a hint of reservation.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Request a weapon to be forged by Hephaestus himself.",
+          "god_message": "The divine presence recedes, and the anvil grows cold as Hephaestus takes offense to your demand.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_2": {
+        "choice_description": "Hum a tune of your own creation, unrelated to the forge.",
+        "god_message": "The anvil remains silent, indifferent to your personal melody.",
+        "choice_score": "neutral"
+      },
+      "choice_3": {
+        "choice_description": "Speak of the might of weapons over the craft of forging them.",
+        "god_message": "The anvil cools noticeably, and the surrounding warmth disappears, displeased by your lack of appreciation for the craft.",
+        "choice_score": "bad"
+      }
+    },
+    "choice_3": {
+      "choice_description": "Criticize the anvil for its worn appearance, doubting its worth.",
+      "god_message": "The anvil's warmth vanishes immediately, along with any sign of the divine presence, deeply offended by your words.",
+      "choice_score": "bad"
+    }
+  }
+  

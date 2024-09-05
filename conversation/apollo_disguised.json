@@ -1,0 +1,96 @@
+{
+    "god": "Apollo",
+    "god_message": "Before you is a golden lyre, resting against an ancient olive tree. Its strings hum softly in the breeze, resonating with a melody that seems to echo the very essence of the sun.",
+    "image_url":"https://images.unsplash.com/photo-1602293565479-1790e39cafc0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "choice_1": {
+      "choice_description": "Play a tune on the lyre, honoring Apollo's musical talents.",
+      "god_message": "The lyre's music grows warmer, its golden glow brightening in response to your respect and skill.",
+      "choice_score": "good",
+      "choice_1": {
+        "choice_description": "Compose a hymn to Apollo, seeking his guidance in the war.",
+        "god_message": "The air around the lyre shimmers with light, as if the sun itself approves of your devotion.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Promise to dedicate every victory in battle to Apollo's glory.",
+          "god_message": "The lyre transforms into Apollo, who appears before you with a radiant smile, pleased by your faith and dedication.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Express hope that Apollo will stand by your side in the coming conflicts.",
+          "god_message": "Apollo, now visible in his divine form, nods thoughtfully, acknowledging your request with a hint of reservation.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Boast that your own strategy will ensure victory without divine intervention.",
+          "god_message": "Apollo's form fades away, disappointed by your arrogance and lack of faith.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_2": {
+        "choice_description": "Remark on the beauty of the olive tree and its symbolism of peace.",
+        "god_message": "The breeze around the lyre carries a scent of olive blossoms, acknowledging your insight.",
+        "choice_score": "neutral",
+        "choice_1": {
+          "choice_description": "Offer to plant more olive trees as a pledge of peace and devotion.",
+          "god_message": "The ground around the olive tree glows softly, as if blessed by Apollo, who reveals himself to commend your vow.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Suggest that even in times of war, one should seek peace.",
+          "god_message": "Apollo's presence lingers near the tree, considering your words with a serene yet distant demeanor.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Claim that the true value of the tree is the wood it provides for weapons.",
+          "god_message": "The glow around the lyre dims, and the divine presence recedes, offended by your lack of reverence.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_3": {
+        "choice_description": "Attempt to take the lyre, seeing it as a valuable artifact.",
+        "god_message": "The lyre becomes immovable, its music fading to silence as Apollo's displeasure is made manifest.",
+        "choice_score": "bad"
+      }
+    },
+    "choice_2": {
+      "choice_description": "Recite a poem that praises the sun's journey across the sky.",
+      "god_message": "The sunlight filtering through the leaves dances more vividly, as if listening to your words.",
+      "choice_score": "neutral",
+      "choice_1": {
+        "choice_description": "Dedicate the poem to Apollo, acknowledging his role as the sun god.",
+        "god_message": "The light coalesces into Apollo's form, his expression one of approval for recognizing his divine aspect.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Kneel in reverence, offering your loyalty in his service.",
+          "god_message": "Apollo, fully revealed, accepts your loyalty with a nod, his presence a comforting warmth.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Ask Apollo to enlighten your path to victory.",
+          "god_message": "Apollo, though present, maintains a thoughtful silence, his approval not fully given.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Demand Apollo show you the path to immediate victory.",
+          "god_message": "The sunlight fades, and Apollo disappears, unimpressed by your impudence.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_2": {
+        "choice_description": "Continue with tales of heroes whose deeds were blessed by the sun.",
+        "god_message": "The sunlight remains steady, its warmth constant but not intensified, as if waiting for deeper insight.",
+        "choice_score": "neutral"
+      },
+      "choice_3": {
+        "choice_description": "Claim that the might of warriors outshines even the sun.",
+        "god_message": "The warmth of the sun cools, and Apollo's presence withdraws, offended by your lack of humility.",
+        "choice_score": "bad"
+      }
+    },
+    "choice_3": {
+      "choice_description": "Ignore the lyre, focusing instead on the practicality of securing resources for war.",
+      "god_message": "The light around the lyre dims, and the sense of divine presence vanishes, disillusioned by your disregard.",
+      "choice_score": "bad"
+    }
+  }
+  

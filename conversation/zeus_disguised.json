@@ -1,0 +1,95 @@
+{
+    "god": "Zeus",
+    "god_message": "Before you is an elderly man, seated upon a simple stone, his gaze piercing yet serene. The air around him crackles faintly with unseen energy.",
+    "image_url":"https://images.unsplash.com/photo-1522181838460-963fbf87ec5c?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "choice_1": {
+      "choice_description": "Approach respectfully and inquire about the wisdom he might share.",
+      "god_message": "The man's eyes twinkle with a hint of amusement and wisdom, as if pleased by your respectful curiosity.",
+      "choice_score": "good",
+      "choice_1": {
+        "choice_description": "Listen intently, absorbing his tales of justice and leadership.",
+        "god_message": "He nods approvingly, his stories imbued with lessons of power and responsibility, the air around him shimmering slightly.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Pledge to lead with fairness and seek justice for all under your command.",
+          "god_message": "The elderly man transforms into the majestic form of Zeus, who smiles, acknowledging your pledge with a nod of approval.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Express admiration but question the applicability of his lessons in modern times.",
+          "god_message": "Zeus reveals himself, intrigued by your perspective, though he offers a gentle reprimand for doubting timeless wisdom.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Boast that you could exceed his achievements with enough power.",
+          "god_message": "The figure's form blurs, then vanishes, leaving you alone as Zeus departs, unimpressed by your arrogance.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_2": {
+        "choice_description": "Share your own views on leadership, seeking to impress him.",
+        "god_message": "He listens with interest, his expression neutral but encouraging, the faint energy around him pulsing.",
+        "choice_score": "neutral",
+        "choice_1": {
+          "choice_description": "Humbly ask for his opinion on your ideas.",
+          "god_message": "The man's demeanor warms, offering insights that enrich your understanding, revealing Zeus in his divine form, nodding in thoughtful approval.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Defend your views with passion, insisting on their superiority.",
+          "god_message": "The air grows still, and the man fades away, leaving a sense of missed opportunity as Zeus departs, unswayed by your insistence.",
+          "choice_score": "bad"
+        },
+        "choice_3": {
+          "choice_description": "Acknowledge the value of adapting old wisdom to new challenges.",
+          "god_message": "He nods thoughtfully but remains noncommittal, his form dissolving into the air as Zeus contemplates your adaptability.",
+          "choice_score": "neutral"
+        }
+      },
+      "choice_3": {
+        "choice_description": "Challenge his views, asserting the need for change and innovation.",
+        "god_message": "His gaze hardens, the air around him crackling more intensely, a sign of growing displeasure.",
+        "choice_score": "bad"
+      }
+    },
+    "choice_2": {
+      "choice_description": "Offer a prayer to the gods of Olympus.",
+      "god_message": "The man listens silently, a gentle smile playing on his lips as the subtle energy around him grows warmer.",
+      "choice_score": "neutral",
+      "choice_1": {
+        "choice_description": "Pray for the wisdom to lead your people justly.",
+        "god_message": "The energy around the man intensifies, his form shimmering, revealing Zeus who nods in approval at your selfless request.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Vow to honor Zeus and his teachings in your rule.",
+          "god_message": "Zeus, fully revealed, smiles broadly, his approval clear as he acknowledges your vow.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Ask for Zeus's blessing in achieving personal glory.",
+          "god_message": "The deity's form blurs, indicating his departure, as Zeus finds your request lacking in selflessness.",
+          "choice_score": "bad"
+        },
+        "choice_3": {
+          "choice_description": "Promise to build a shrine in his honor with your first victory.",
+          "god_message": "Zeus, considers your offer but ultimately leaves, the promise of a shrine leaving him mildly pleased.",
+          "choice_score": "neutral"
+        }
+      },
+      "choice_2": {
+        "choice_description": "Pray for strength and power to conquer your enemies.",
+        "god_message": "The man's expression remains unchanged, the energy around him dissipates.",
+        "choice_score": "neutral"
+      },
+      "choice_3": {
+        "choice_description": "Brag about your previous victories and future conquests.",
+        "god_message": "The surrounding air turns cold, and the man fades from view, disappointed by your arrogance.",
+        "choice_score": "bad"
+      }
+    },
+    "choice_3": {
+      "choice_description": "Ignore him, believing he has nothing of value to offer.",
+      "god_message": "The man's gaze follows you as you pass, the crackling energy dissipating, a silent testament to your missed opportunity.",
+      "choice_score": "bad"
+    }
+  }

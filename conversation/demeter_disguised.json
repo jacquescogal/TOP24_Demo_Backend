@@ -1,0 +1,95 @@
+{
+  "god": "Demeter",
+  "god_message": "Before you lies a single seed on the ground, glowing faintly under the moonlight. A sense of nurturing warmth and potential surrounds it, inviting closer inspection.",
+  "image_url":"https://images.unsplash.com/photo-1601457055763-369f16306c4b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "choice_1": {
+    "choice_description": "Kneel and gently pick up the seed, sensing its connection to the earth.",
+    "god_message": "The seed pulses softly in your hand, resonating with a life force that seems to beckon the soil.",
+    "choice_score": "good",
+    "choice_1": {
+      "choice_description": "Promise to plant it in fertile ground, ensuring it receives sunlight and water.",
+      "god_message": "A warmth spreads from the seed to your palm, as if it thrives on your commitment to nurture.",
+      "choice_score": "good",
+      "choice_1": {
+        "choice_description": "Vow to protect the seedling until it matures, no matter the challenges.",
+        "god_message": "The seed transforms into Demeter, who smiles warmly, touched by your dedication to growth and protection.",
+        "choice_score": "good"
+      },
+      "choice_2": {
+        "choice_description": "Wonder aloud about the potential harvest it could bring.",
+        "god_message": "Demeter reveals herself, pleased by your foresight, though her expression suggests a lesson on patience is needed.",
+        "choice_score": "neutral"
+      },
+      "choice_3": {
+        "choice_description": "Consider selling the future harvest for personal gain.",
+        "god_message": "The seed grows cold and Demeter, disguised as its essence, departs in silence, disappointed by your selfishness.",
+        "choice_score": "bad"
+      }
+    },
+    "choice_2": {
+      "choice_description": "Contemplate the best season for planting to ensure optimal growth.",
+      "god_message": "The seed seems to glow brighter, appreciating your consideration of the cycles of nature.",
+      "choice_score": "neutral",
+      "choice_1": {
+        "choice_description": "Decide to wait for spring, respecting the natural order.",
+        "god_message": "Your patience and understanding of nature's rhythm pleases the spirit of the seed, revealing Demeter who nods in quiet approval.",
+        "choice_score": "good"
+      },
+      "choice_2": {
+        "choice_description": "Plan to use magic to accelerate its growth, regardless of the season.",
+        "god_message": "The seed's light dims as if wary of unnatural influences, leading to Demeter's departure, her test failed by your impatience.",
+        "choice_score": "bad"
+      },
+      "choice_3": {
+        "choice_description": "Ponder the merits of each season, unable to decide.",
+        "god_message": "The warmth from the seed fades, and with it, Demeter's presence wanes, her patience for indecision limited.",
+        "choice_score": "neutral"
+      }
+    },
+    "choice_3": {
+      "choice_description": "Leave the seed, fearing the responsibility of caring for it.",
+      "god_message": "The faint glow of the seed extinguishes, as does the presence of Demeter, saddened by your reluctance to nurture.",
+      "choice_score": "bad"
+    }
+  },
+  "choice_2": {
+    "choice_description": "Observe the seed from a distance, marveling at its glow yet hesitant to approach.",
+    "god_message": "The seed's glow persists, inviting yet testing your willingness to engage with the mysteries of life.",
+    "choice_score": "neutral",
+    "choice_1": {
+      "choice_description": "Overcome your hesitation and approach with reverence.",
+      "god_message": "As you draw nearer, the seed's warmth welcomes you, pleased by your decision to embrace the unknown, revealing Demeter who acknowledges your courage.",
+      "choice_score": "good",
+      "choice_1": {
+        "choice_description": "Express a desire to learn from the seed, to understand its essence.",
+        "god_message": "Demeter, emerging from the guise of the seed, smiles, recognizing your willingness to grow and learn.",
+        "choice_score": "good"
+      },
+      "choice_2": {
+        "choice_description": "Ask the seed for guidance in nurturing it to its full potential.",
+        "god_message": "Though touched by your request for guidance, Demeter, subtly present in the seed's essence, remains silent, urging you to trust your intuition.",
+        "choice_score": "neutral"
+      },
+      "choice_3": {
+        "choice_description": "Demand that the seed reveal its purpose to you immediately.",
+        "god_message": "The seed and the presence within it withdraw, chilled by your impatience and demand, leading to Demeter's silent departure.",
+        "choice_score": "bad"
+      }
+    },
+    "choice_2": {
+      "choice_description": "Speculate on the nature of the seed, whether ordinary or magical.",
+      "god_message": "The seed remains still, its glow steady, as if waiting for you to move beyond speculation to action.",
+      "choice_score": "neutral"
+    },
+    "choice_3": {
+      "choice_description": "Decide the seed's mystery is not worth the effort.",
+      "god_message": "The light from the seed dims, reflecting your disinterest, as the nurturing presence of Demeter fades away.",
+      "choice_score": "bad"
+    }
+  },
+  "choice_3": {
+    "choice_description": "Attempt to destroy the seed, fearing it may grow into something dangerous.",
+    "god_message": "Immediately, the seed's glow extinguishes, and the warm presence vanishes, deeply offended by your destructive impulse.",
+    "choice_score": "bad"
+  }
+}

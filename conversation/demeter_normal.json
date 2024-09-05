@@ -1,0 +1,220 @@
+{
+  "god": "Demeter",
+  "god_message": "Ah, seeker of the harvest and the changing seasons, you stand within my realm. What would you ask of Demeter, goddess of the grain?",
+  "image_url":"https://images.unsplash.com/photo-1613957871189-f6165548ae02?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "choice_1": {
+    "choice_description": "Implore Demeter's aid to ensure the lands of your allies remain fertile amidst the war.",
+    "god_message": "Your concern for the land and its people pleases me. The earth's bounty is precious.",
+    "choice_score": "good",
+    "choice_1": {
+      "choice_description": "Offer to dedicate a portion of the harvest to her temples.",
+      "god_message": "A generous offering ensures the cycle of growth and gratitude continues.",
+      "choice_score": "good",
+      "choice_1": {
+        "choice_description": "Promise to protect the sacred groves and forests.",
+        "god_message": "Your vow to guard the sacred spaces touches my heart. I will consider your devotion as the day wanes.",
+        "choice_score": "good"
+      },
+      "choice_2": {
+        "choice_description": "Suggest organizing festivals in her honor with the harvest.",
+        "god_message": "Festivals celebrate life and renewal. Yet, the sincerity of the celebration matters most. I shall reflect on this.",
+        "choice_score": "neutral"
+      },
+      "choice_3": {
+        "choice_description": "Propose new agricultural techniques to increase yield.",
+        "god_message": "Innovation is valuable, yet it must not disrupt the natural balance. I will ponder your words.",
+        "choice_score": "bad"
+      }
+    },
+    "choice_2": {
+      "choice_description": "Ask for her wisdom in cultivating crops resistant to war's ravages.",
+      "god_message": "Wisdom in agriculture is as crucial as in warfare. I am heartened by your foresight.",
+      "choice_score": "neutral",
+      "choice_1": {
+        "choice_description": "Plan to share this knowledge with all, regardless of allegiance.",
+        "god_message": "Sharing knowledge for the good of all reflects a noble spirit. I am intrigued by your proposal.",
+        "choice_score": "good"
+      },
+      "choice_2": {
+        "choice_description": "Intend to use this advantage to secure victory for your people.",
+        "god_message": "Securing victory at the expense of others does not always lead to true prosperity. I must consider the implications.",
+        "choice_score": "neutral"
+      },
+      "choice_3": {
+        "choice_description": "Suggest withholding the knowledge to weaken your enemies.",
+        "god_message": "Withholding aid contradicts the essence of growth and life. Such actions concern me.",
+        "choice_score": "bad"
+      }
+    },
+    "choice_3": {
+      "choice_description": "Request a blessing for a bountiful harvest to feed your armies.",
+      "god_message": "An army marches on its stomach, true. But remember, the land nourishes all.",
+      "choice_score": "bad",
+      "choice_1": {
+        "choice_description": "Vow to leave fields untrodden by war in exchange.",
+        "god_message": "To spare the land from war's scars is a worthy promise. I will take your pledge to heart.",
+        "choice_score": "good"
+      },
+      "choice_2": {
+        "choice_description": "Suggest the surplus feed not just your soldiers, but all in need.",
+        "god_message": "Feeding all in need is a virtuous cycle that strengthens the bonds of humanity. I will consider your intentions.",
+        "choice_score": "neutral"
+      },
+      "choice_3": {
+        "choice_description": "Insist on the strategic advantage this would grant over your foes.",
+        "god_message": "Strategy at the expense of the land's balance disturbs the cycle of life. I am wary of such paths.",
+        "choice_score": "bad"
+      }
+    }
+  },
+  "choice_2": {
+    "choice_description": "Express a desire to learn about ancient grains once thought lost, to diversify the crops.",
+    "god_message": "Your interest in the ancient ways and the preservation of diversity is commendable.",
+    "choice_score": "neutral",
+    "choice_1": {
+      "choice_description": "Propose to restore ancient seed vaults as sacred sites.",
+      "god_message": "Restoring ancient vaults honors the past and secures a future. Such foresight could bear fruit.",
+      "choice_score": "good",
+      "choice_1": {
+        "choice_description": "Commit to educating farmers on the cultivation of these grains.",
+        "god_message": "Education is the seed from which understanding grows. I shall consider your commitment as the sun sets.",
+        "choice_score": "good"
+      },
+      "choice_2": {
+        "choice_description": "Suggest the creation of a network of sanctuaries for these seeds.",
+        "god_message": "Sanctuaries ensure safety, yet they must not become hoards hidden from need. I will reflect on your words.",
+        "choice_score": "neutral"
+      },
+      "choice_3": {
+        "choice_description": "Plan to use the grains as leverage against other states.",
+        "god_message": "Leverage in such matters risks the very essence of life's bounty. I am hesitant about this path.",
+        "choice_score": "bad"
+      }
+    },
+    "choice_2": {
+      "choice_description": "Inquire about rituals to honor the earth and encourage its fertility.",
+      "god_message": "Rituals that honor the earth speak to a deep understanding of life's cycles.",
+      "choice_score": "bad",
+      "choice_1": {
+        "choice_description": "Offer to revive ancient festivals and rites long forgotten.",
+        "god_message": "Reviving ancient practices can reconnect us to the earth's rhythms. Your proposal holds merit.",
+        "choice_score": "good"
+      },
+      "choice_2": {
+        "choice_description": "Suggest incorporating these rituals into the military campaigns.",
+        "god_message": "Incorporating respect for the earth into all aspects of life is wise, yet war complicates such purity.",
+        "choice_score": "neutral"
+      },
+      "choice_3": {
+        "choice_description": "Plan to enforce these rituals among conquered peoples.",
+        "god_message": "Enforcement without understanding breeds resentment, not reverence. I am cautious about this.",
+        "choice_score": "bad"
+      }
+    },
+    "choice_3": {
+      "choice_description": "Pledge to safeguard the natural order, protecting fields and forests from war's destruction.",
+      "god_message": "Your pledge resonates with the core of my being. The protection of the earth is paramount.",
+      "choice_score": "good",
+      "choice_1": {
+        "choice_description": "Initiate conservation efforts, even in wartime.",
+        "god_message": "Conservation amidst conflict is a challenging path, yet it is one of great honor. I am heartened by your dedication.",
+        "choice_score": "good"
+      },
+      "choice_2": {
+        "choice_description": "Encourage alliances based on mutual respect for the land.",
+        "god_message": "Alliances grounded in respect for the earth carry the potential for true peace. I will ponder your suggestion.",
+        "choice_score": "neutral"
+      },
+      "choice_3": {
+        "choice_description": "Use the natural landscape as a weapon against enemies.",
+        "god_message": "The land should never become a weapon. Such actions can irreparably harm the balance. I am troubled by this.",
+        "choice_score": "bad"
+      }
+    }
+  },
+  "choice_3": {
+    "choice_description": "Seek Demeter's blessing for the warriors, that they may fight with the strength and resilience of the earth.",
+    "god_message": "You seek to bind the might of the earth to your cause. Strength must be matched with wisdom.",
+    "choice_score": "bad",
+    "choice_1": {
+      "choice_description": "Promise to honor fallen warriors with memorials that cultivate life.",
+      "god_message": "Memorials that also bring life are a tribute to the cycle of existence. Such thoughtfulness may sway my heart.",
+      "choice_score": "good",
+      "choice_1": {
+        "choice_description": "Plan to plant trees for each fallen soldier.",
+        "god_message": "Trees as memorials stand as lasting tributes to those lost, growing stronger with time. I am moved by your proposition.",
+        "choice_score": "good"
+      },
+      "choice_2": {
+        "choice_description": "Suggest creating gardens in their names within the cities.",
+        "god_message": "Gardens that remember the fallen amidst urban sprawl remind us of life's persistence. I will consider your words.",
+        "choice_score": "neutral"
+      },
+      "choice_3": {
+        "choice_description": "Insist on dedicating conquered lands as these memorials.",
+        "god_message": "Conquered lands bear the scars of conflict. Dedicating them as memorials does not erase the violence. I need time to reflect.",
+        "choice_score": "bad"
+      }
+    },
+    "choice_2": {
+      "choice_description": "Vow to teach your soldiers to respect the sanctity of the earth, even in battle.",
+      "god_message": "Respect for the earth, even in dire times, is a virtue that aligns with my essence.",
+      "choice_score": "neutral",
+      "choice_1": {
+        "choice_description": "Implement strict rules to minimize harm to natural sites.",
+        "god_message": "Rules that protect the earth demonstrate foresight and respect. Your commitment is noble.",
+        "choice_score": "good"
+      },
+      "choice_2": {
+        "choice_description": "Organize rituals to thank the earth before and after battles.",
+        "god_message": "Rituals that honor the earth's bounty before the clash of war are rare. I will weigh the depth of your reverence.",
+        "choice_score": "neutral"
+      },
+      "choice_3": {
+        "choice_description": "Use scorched earth tactics only as a last resort.",
+        "god_message": "Scorched earth is a desperate act that severs the bond between humanity and the land. I am deeply concerned by this.",
+        "choice_score": "bad"
+      }
+    },
+    "choice_3": {
+      "choice_description": "Entreat Demeter for a sign to inspire your people with the earth's enduring strength.",
+      "god_message": "You seek a symbol of hope, a testament to the earth's unyielding power.",
+      "choice_score": "good",
+      "choice_1": {
+        "choice_description": "Request a bountiful harvest as a sign of divine favor.",
+        "god_message": "A bountiful harvest as a beacon of hope can unite and inspire. Your request is poignant.",
+        "choice_score": "good"
+      },
+      "choice_2": {
+        "choice_description": "Ask for a natural phenomenon to demonstrate her might.",
+        "god_message": "Natural phenomena as demonstrations of might must be approached with care, lest they cause unwarranted harm. I will think on this.",
+        "choice_score": "neutral"
+      },
+      "choice_3": {
+        "choice_description": "Suggest that only her direct intervention can ensure victory.",
+        "god_message": "Demanding direct intervention misunderstands the balance of power and responsibility. I must deliberate carefully.",
+        "choice_score": "bad"
+      }
+    }
+  },
+  "bonus_question":{
+    "choice_description": "One more thing...",
+    "god_message": "NTU is a leader in sustainability. What percentage of its energy consumption is targeted to be generated by renewable sources?",
+    "choice_score": "neutral",
+    "choice_1": {
+        "choice_description": "15%",
+        "god_message": "Not quite. I need time to think on your request. Return to your world, mortal.",
+        "choice_score": "bad"
+    },
+    "choice_2": {
+        "choice_description": "25%",
+        "god_message": "Not quite. I need time to think on your request. Return to your world, mortal.",
+        "choice_score": "bad"
+    },
+    "choice_3": {
+        "choice_description": "35%",
+        "god_message": "Very good. I shall consider your request. Return to your world, mortal.",
+        "choice_score": "good"
+    }
+}
+}

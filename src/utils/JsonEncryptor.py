@@ -35,3 +35,21 @@ class JsonEncryptor:
         data = json.loads(decrypted_data.decode())
 
         return data
+    
+    async def decrypt_add_encrypt(self,path,key,value):
+        data=await self.decrypt_enc_file(path)
+        data[key]=value
+        json_str = json.dumps(data)
+        encrypted_data = self.cipher_suite.encrypt(json_str.encode())
+
+        with open(path, 'wb') as file:
+            file.write(encrypted_data)
+        
+    async def decrypt_pop_encrypt(self,path,key):
+        data=await self.decrypt_enc_file(path)
+        data.pop(key)
+        json_str = json.dumps(data)
+        encrypted_data = self.cipher_suite.encrypt(json_str.encode())
+
+        with open(path, 'wb') as file:
+            file.write(encrypted_data)

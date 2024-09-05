@@ -1,0 +1,221 @@
+{
+    "god": "Hera",
+    "god_message": "Ah, mortal. You stand within my realm, where the bonds of marriage and the heart of family reign supreme. Speak your purpose, but tread carefully, for my favor is not easily won.",
+    "image_url":"https://images.unsplash.com/flagged/photo-1567461319575-c3c7ae744b50?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "choice_1": {
+      "choice_description": "Praise Hera's unparalleled commitment to marriage and her protection over women.",
+      "god_message": "Your words reflect a deep understanding of my domain. The sanctity of marriage is paramount, and your respect for it pleases me.",
+      "choice_score": "good",
+      "choice_1": {
+        "choice_description": "Seek guidance on fostering unity among your allies, as Hera does in Olympus.",
+        "god_message": "Unity, when genuine, forms the strongest bond. Let us see if your heart truly seeks harmony or mere advantage.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Offer a vow to honor alliances as sacred bonds, unbreakable in the face of adversity.",
+          "god_message": "A vow taken before me holds weight. I shall deliberate on your commitment as the day wanes.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Propose a feast in Hera's honor to celebrate the alliances you forge.",
+          "god_message": "Feasts celebrate bonds, yet actions speak louder than ceremonies. I will ponder your proposal.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Claim that without her guidance, your alliances are doomed to fail.",
+          "god_message": "Doom? It is not threats but trust that fortifies alliances. Your words are ill-chosen.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_2": {
+        "choice_description": "Ask for Hera's blessing to ensure loyalty among your followers.",
+        "god_message": "Loyalty is earned, not bestowed. Yet, your request shows foresight.",
+        "choice_score": "neutral",
+        "choice_1": {
+          "choice_description": "Promise to emulate Hera's virtues in leadership.",
+          "god_message": "To emulate divine virtues is a noble path. Your pledge merits consideration.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Suggest that fear of betrayal drives your plea.",
+          "god_message": "Fear undermines the very loyalty you seek to cultivate. Reflect on your motivations.",
+          "choice_score": "bad"
+        },
+        "choice_3": {
+          "choice_description": "Offer gifts to Hera's temples as a sign of your commitment to loyalty.",
+          "god_message": "Gifts honor the temple, but true loyalty springs from actions, not offerings. I shall consider your gesture.",
+          "choice_score": "neutral"
+        }
+      },
+      "choice_3": {
+        "choice_description": "Inquire about Hera's own challenges in maintaining divine relationships.",
+        "god_message": "Curiosity about divine affairs? Be wary, mortal, for such knowledge carries its own burdens.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Express empathy and offer support in her divine endeavors.",
+          "god_message": "Empathy from a mortal is rare and touching. Your support is noted, and I will ponder your words.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Seek to learn secrets of the gods to gain advantage in your cause.",
+          "god_message": "Secrets of the divine are not tools for mortal gain. Your request is bold, perhaps too bold.",
+          "choice_score": "bad"
+        },
+        "choice_3": {
+          "choice_description": "Suggest that understanding these challenges could help prevent similar issues among mortals.",
+          "god_message": "Prevention is wise, but the leap from divine to mortal affairs is vast. Your intentions are unclear.",
+          "choice_score": "neutral"
+        }
+      }
+    },
+    "choice_2": {
+      "choice_description": "Offer to extend Hera's influence across new lands, ensuring her worship spreads.",
+      "god_message": "Expanding my worship is a worthy endeavor, but it requires more than mere words.",
+      "choice_score": "good",
+      "choice_1": {
+        "choice_description": "Propose constructing new temples and shrines in her name.",
+        "god_message": "Temples and shrines serve as beacons of faith. Your proposal is ambitious and will be considered.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Commit to personally overseeing the construction, ensuring each site reflects Hera's grandeur.",
+          "god_message": "Personal oversight demonstrates dedication. I shall contemplate your commitment.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Suggest a festival to celebrate the completion of each new temple.",
+          "god_message": "Festivals bring joy and devotion, yet the essence of worship lies deeper. I will think on your suggestion.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Demand recognition for your efforts to elevate Hera above other gods.",
+          "god_message": "Demand? Recognition is earned, not requested. Your ambition may outpace your wisdom.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_2": {
+        "choice_description": "Plan to teach Hera's virtues in schools, instilling them in the next generation.",
+        "god_message": "Education in virtue is a noble pursuit. Yet, how you propose to implement this intrigues me.",
+        "choice_score": "neutral",
+        "choice_1": {
+          "choice_description": "Ensure that Hera's teachings are integrated into the curriculum with respect and accuracy.",
+          "god_message": "Accuracy and respect in teaching are paramount. Your attention to detail is commendable.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Argue that this will make Hera more relevant than other deities to the youth.",
+          "god_message": "Relevance is not a competition. Your approach seems misguided.",
+          "choice_score": "bad"
+        },
+        "choice_3": {
+          "choice_description": "Offer to create a council of educators to oversee the integration of Hera's teachings.",
+          "god_message": "A council could ensure that teachings are balanced and effective. I will consider your plan.",
+          "choice_score": "neutral"
+        }
+      },
+      "choice_3": {
+        "choice_description": "Vow to defend the sanctity of marriage and family in Hera's name.",
+        "god_message": "Such a vow aligns with my core values. Show me your conviction.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Organize community support groups to uphold marital vows and family unity.",
+          "god_message": "Community support can be the bedrock of society. Your initiative is wise and will be contemplated.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Implement laws that strictly punish those who betray marital vows.",
+          "god_message": "Punishment without understanding can lead to fear, not fidelity. Reflect on the implications.",
+          "choice_score": "bad"
+        },
+        "choice_3": {
+          "choice_description": "Create educational programs on the importance of loyalty and commitment.",
+          "god_message": "Education fosters understanding and growth. Your proposal shows foresight.",
+          "choice_score": "neutral"
+        }
+      }
+    },
+    "choice_3": {
+      "choice_description": "Confess your struggles in rallying support against the demigods, seeking Hera's counsel.",
+      "god_message": "Your humility in seeking counsel is a sign of wisdom. Yet, remember, advice is only as good as the action it inspires.",
+      "choice_score": "good",
+      "choice_1": {
+        "choice_description": "Ask for Hera's wisdom to inspire and unite people under a common cause.",
+        "god_message": "Inspiration and unity are powerful forces. I will consider how best to aid you in this noble pursuit.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Pledge to use her wisdom to protect families from the chaos of war.",
+          "god_message": "Protecting families resonates with my essence. Your pledge will be weighed with care.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Inquire about strategies to use familial bonds as a rallying point.",
+          "god_message": "Familial bonds are a unique motivator. Your strategic approach will be deliberated.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Suggest exploiting Hera's rivalry with Zeus to gain her favor.",
+          "god_message": "Exploiting divine rivalries is perilous and shows a lack of judgment. I am not amused.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_2": {
+        "choice_description": "Express a desire to mend the rifts between gods and mortals, asking for Hera's guidance.",
+        "god_message": "Mending rifts is a commendable goal. The path to reconciliation is complex, but your intent is clear.",
+        "choice_score": "neutral",
+        "choice_1": {
+          "choice_description": "Propose a symposium to discuss grievances and seek common ground.",
+          "god_message": "A symposium could open pathways to understanding. Your initiative will be taken into account.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Suggest that Hera lead the gods in showing benevolence towards mortals.",
+          "god_message": "Benevolence must be met with respect and gratitude. I will contemplate your suggestion.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Claim that without her intervention, the rift may grow beyond repair.",
+          "god_message": "Threats and dire predictions are not the foundation for healing. Your words are poorly chosen.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_3": {
+        "choice_description": "Request Hera's assistance in securing an alliance with a powerful deity.",
+        "god_message": "Securing alliances with deities is no small feat. Your request is bold and requires careful consideration.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Offer a grand sacrifice in Hera's name to gain her favor in this endeavor.",
+          "god_message": "Sacrifices are a sign of devotion. Your grand gesture will be considered alongside your request.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Imply that the alliance is crucial to countering Zeus's influence.",
+          "god_message": "Countering Zeus is not the purpose of alliances. Focus on the merits, not on divine politics.",
+          "choice_score": "bad"
+        },
+        "choice_3": {
+          "choice_description": "Suggest that this alliance would bring stability to the realms of gods and mortals alike.",
+          "god_message": "Stability is a worthy goal. Your perspective will be weighed as I ponder your proposal.",
+          "choice_score": "neutral"
+        }
+      }
+    },
+    "bonus_question":{
+      "choice_description": "One more thing...",
+      "god_message": "Which of these is a National Monument of Singapore?",
+      "choice_score": "neutral",
+      "choice_1": {
+          "choice_description": "The Hive",
+          "god_message": "Not quite. I need time to think on your request. Return to your world, mortal.",
+          "choice_score": "bad"
+      },
+      "choice_2": {
+          "choice_description": "The Wave",
+          "god_message": "Not quite. I need time to think on your request. Return to your world, mortal.",
+          "choice_score": "bad"
+      },
+      "choice_3": {
+          "choice_description": "Nanyang University arch",
+          "god_message": "Very good. I shall consider your request. Return to your world, mortal.",
+          "choice_score": "good"
+      }
+  }
+  }
+  

@@ -1,0 +1,221 @@
+{
+    "god": "Athena",
+    "god_message": "Mortal, you stand before Athena, goddess of wisdom and warfare. Speak your cause with clarity and purpose.",
+    "image_url":"https://images.unsplash.com/photo-1602522393396-3f56815fc1b6?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "choice_1": {
+      "choice_description": "Plead for Athena's wisdom to strategize against the demigods.",
+      "god_message": "Your quest for wisdom honors me. Strategy shall be your strongest ally.",
+      "choice_score": "good",
+      "choice_1": {
+        "choice_description": "Ask for insight on the demigods' weaknesses.",
+        "god_message": "Understanding your enemy is the first step to victory. Proceed with caution and wisdom.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Offer to gather intelligence on enemies.",
+          "god_message": "Your initiative is commendable. I shall consider your proposition at the day's end.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Suggest a covert operation against a weak demigod.",
+          "god_message": "Stealth and subtlety are key in warfare. I will ponder your strategy.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Propose a frontal assault on the strongest demigod.",
+          "god_message": "Bravery must not lead to folly. I shall deliberate on this.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_2": {
+        "choice_description": "Seek guidance on forging alliances with other gods.",
+        "god_message": "Alliances require trust and mutual respect. Choose your allies wisely.",
+        "choice_score": "neutral",
+        "choice_1": {
+          "choice_description": "Propose a council of gods to discuss the war.",
+          "god_message": "A council could bring unity or discord. I will think over your suggestion.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Suggest bribing lesser gods for support.",
+          "god_message": "Bribery may win support, but not loyalty. Reflect on this.",
+          "choice_score": "bad"
+        },
+        "choice_3": {
+          "choice_description": "Recommend proving your worth to earn their allegiance.",
+          "god_message": "Deeds speak louder than words. Your idea merits consideration.",
+          "choice_score": "neutral"
+        }
+      },
+      "choice_3": {
+        "choice_description": "Inquire about enhancing your army's equipment.",
+        "god_message": "Superior weaponry can turn the tide of war. Your focus is prudent.",
+        "choice_score": "bad",
+        "choice_1": {
+          "choice_description": "Request divine weapons from Hephaestus.",
+          "god_message": "Divine weapons for mortals? A bold request. I shall ponder its implications.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Ask for Athena's blessing on your current armaments.",
+          "god_message": "A blessing can indeed fortify your resolve and weaponry. I will consider it.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Suggest stealing weapons from the demigods.",
+          "god_message": "Theft is a risky venture that may lead to unnecessary conflict. I need time to think on this.",
+          "choice_score": "bad"
+        }
+      }
+    },
+    "choice_2": {
+      "choice_description": "Offer a tribute to Athena, showcasing your dedication.",
+      "god_message": "Your tribute is noted, but true dedication is shown through actions, not gifts.",
+      "choice_score": "neutral",
+      "choice_1": {
+        "choice_description": "Present a finely crafted statue in her honor.",
+        "god_message": "Artistry and craftsmanship honor me. Your gift will be remembered as I make my decision.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Explain the statue symbolizes Athena's wisdom guiding your cause.",
+          "god_message": "Symbolism and thoughtfulness shine through your actions. I shall consider your words.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Mention the statue is from the finest artist in your land.",
+          "god_message": "While craftsmanship is to be admired, remember, true artistry comes from the soul. I will think on this.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Boast that the statue will make other gods envious.",
+          "god_message": "Envy has no place among the divine. Reflect on your intentions.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_2": {
+        "choice_description": "Dedicate a victory in her name at an upcoming battle.",
+        "god_message": "A victory in my name requires not only strength but wisdom. Your dedication is noted.",
+        "choice_score": "neutral",
+        "choice_1": {
+          "choice_description": "Plan a battle strategy that minimizes casualties.",
+          "god_message": "Wisdom in warfare is precious. Your approach is prudent.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Promise a grand spectacle of the victory.",
+          "god_message": "Spectacle without substance achieves little. I will deliberate on your offer.",
+          "choice_score": "bad"
+        },
+        "choice_3": {
+          "choice_description": "Vow to defeat a formidable enemy leader.",
+          "god_message": "Targeting a leader can be strategic, but also perilous. I shall ponder your resolve.",
+          "choice_score": "neutral"
+        }
+      },
+      "choice_3": {
+        "choice_description": "Offer knowledge, a library in her name.",
+        "god_message": "A library is a beacon of knowledge. Such an offer speaks well of you.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Promise to include texts from all cultures.",
+          "god_message": "Diversity in wisdom enriches all who seek it. Your plan will be considered.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Suggest the library also serve as a military academy.",
+          "god_message": "Knowledge and strategy should walk hand in hand. An interesting proposition.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Boast the library will surpass Alexandria's.",
+          "god_message": "Ambition is commendable, but humility is wisdom. I will reflect on your words.",
+          "choice_score": "bad"
+        }
+      }
+    },
+    "choice_3": {
+      "choice_description": "Challenge Athena with a strategic game, seeking to prove your worth.",
+      "god_message": "You dare challenge me in the art of strategy? Boldness has its place.",
+      "choice_score": "bad",
+      "choice_1": {
+        "choice_description": "Admit the challenge was to gain her favor through courage.",
+        "god_message": "Courage and honesty are virtues I admire. Your admission is wise.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Humbly request a lesson in strategy, regardless of the game's outcome.",
+          "god_message": "A student eager to learn is always welcome. Your humility will be remembered.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Offer a rematch, promising a more thoughtful approach.",
+          "god_message": "Persistence paired with reflection can lead to growth. I will consider your request.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Claim you let her win to show respect.",
+          "god_message": "Respect is shown through actions, not deceit. Contemplate your approach.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_2": {
+        "choice_description": "Strategically let Athena win, showing humility.",
+        "god_message": "Humility before the gods is wise. Yet, the true test is in genuine effort.",
+        "choice_score": "neutral",
+        "choice_1": {
+          "choice_description": "Express gratitude for the opportunity to learn from her.",
+          "god_message": "Gratitude and a willingness to learn are commendable. Your words will be weighed.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Suggest the game was rigged in her favor.",
+          "god_message": "Accusations without proof lead only to discord. Reflect on your words.",
+          "choice_score": "bad"
+        },
+        "choice_3": {
+          "choice_description": "Ask for a critique of your strategy to improve.",
+          "god_message": "Seeking improvement is the path to wisdom. Your request will be considered.",
+          "choice_score": "neutral"
+        }
+      },
+      "choice_3": {
+        "choice_description": "Play to win at all costs, showing determination.",
+        "god_message": "Determination is valuable when paired with honor. Your actions speak volumes.",
+        "choice_score": "bad",
+        "choice_1": {
+          "choice_description": "Apologize for any disrespect, emphasizing your commitment to victory.",
+          "god_message": "An apology paired with understanding is a step towards wisdom. I will ponder your commitment.",
+          "choice_score": "neutral"
+        },
+        "choice_2": {
+          "choice_description": "Defend your aggressive strategy as a demonstration of will.",
+          "god_message": "A strong will must be balanced with wisdom. Your justification will be considered.",
+          "choice_score": "bad"
+        },
+        "choice_3": {
+          "choice_description": "Promise to use such determination only against enemies.",
+          "god_message": "Using your strength wisely is a virtue. Your promise holds weight.",
+          "choice_score": "good"
+        }
+      }
+    },
+    "bonus_question":{
+      "choice_description": "One more thing...",
+      "god_message": "Which of these halls does not have a canteen?",
+      "choice_score": "neutral",
+      "choice_1": {
+          "choice_description": "Hall 1",
+          "god_message": "Not quite. I need time to think on your request. Return to your world, mortal.",
+          "choice_score": "bad"
+      },
+      "choice_2": {
+          "choice_description": "Hall 9",
+          "god_message": "Not quite. I need time to think on your request. Return to your world, mortal.",
+          "choice_score": "bad"
+      },
+      "choice_3": {
+          "choice_description": "Hall 6",
+          "god_message": "Very good. I shall consider your request. Return to your world, mortal.",
+          "choice_score": "good"
+      }
+  }
+  }
+  

@@ -1,0 +1,96 @@
+{
+    "god": "Hera",
+    "god_message": "Before you is a proud peacock, its feathers a dazzling array of colors. Despite its animal form, there's an undeniable air of majesty and command about it.",
+    "image_url":"https://images.unsplash.com/photo-1554658506-487b008909d1?q=80&w=2012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "choice_1": {
+      "choice_description": "Bow deeply before the peacock, recognizing the divine essence within.",
+      "god_message": "The peacock's feathers shimmer brightly, and it steps closer, a sense of approval emanating from it.",
+      "choice_score": "good",
+      "choice_1": {
+        "choice_description": "Speak of the importance of loyalty and fidelity.",
+        "god_message": "The peacock fans its feathers wide, bathing you in a gentle light, feeling honored by your words.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Vow to uphold these virtues in your own life and to honor the bonds you've made.",
+          "god_message": "The peacock transforms into Hera, who acknowledges your vow with a gracious nod, her divine presence enveloping you.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Comment on the challenges of maintaining such ideals in times of strife.",
+          "god_message": "Hera, still disguised, nods thoughtfully, her gaze softening slightly as she contemplates your reflection.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Boast that you've never been swayed by temptation.",
+          "god_message": "The divine aura fades as the peacock turns away, unimpressed by your arrogance, leaving you alone.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_2": {
+        "choice_description": "Compliment the peacock's beauty, drawing parallels to divine grace.",
+        "god_message": "The peacock struts, clearly pleased with your comparison, its beauty shining even more radiantly.",
+        "choice_score": "neutral",
+        "choice_1": {
+          "choice_description": "Reflect on how external beauty can reflect inner virtues.",
+          "god_message": "The peacock, intrigued by your insight, shines with a warm glow, revealing Hera who considers your words carefully.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Admit that beauty can sometimes be deceiving.",
+          "god_message": "The peacock pauses, its glow dimming slightly as Hera, still hidden, ponders the truth of your statement.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Argue that beauty and power are the most desirable traits.",
+          "god_message": "The light around the peacock dims abruptly, and it walks away, leaving you to reflect on your superficiality.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_3": {
+        "choice_description": "Attempt to capture the peacock, eager to claim its beauty for your own.",
+        "god_message": "The peacock vanishes in a burst of light, its divine essence withdrawing in response to your greed.",
+        "choice_score": "bad"
+      }
+    },
+    "choice_2": {
+      "choice_description": "Recite a prayer dedicated to the protectors of family and marriage.",
+      "god_message": "The peacock listens intently, its feathers glowing softly as if moved by your prayer.",
+      "choice_score": "neutral",
+      "choice_1": {
+        "choice_description": "Pray for the strength to protect those you love.",
+        "god_message": "A warm light envelops you, and the peacock transforms into Hera, who nods in approval of your selfless request.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Offer a vow to always stand by your family and allies.",
+          "god_message": "Hera smiles, fully revealed, her approval clear as she acknowledges your devotion.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Ask for Hera's blessing to ensure the loyalty of your companions.",
+          "god_message": "Hera considers your request but reminds you gently that loyalty is earned, not given.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Demand a sign of Hera's favor to prove your worthiness.",
+          "god_message": "Displeased by your audacity, the divine presence recedes, and the peacock leaves, taking the goddess's favor with it.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_2": {
+        "choice_description": "Express hope that all families can find peace and unity.",
+        "god_message": "The peacock cocks its head, considering your words, but remains unchanged, its response lukewarm.",
+        "choice_score": "neutral"
+      },
+      "choice_3": {
+        "choice_description": "Boast about your own contributions to family unity.",
+        "god_message": "The peacock, unimpressed by your self-promotion, swiftly departs, its divine light extinguished.",
+        "choice_score": "bad"
+      }
+    },
+    "choice_3": {
+      "choice_description": "Ignore the peacock, believing it to be a mere bird.",
+      "god_message": "The peacock gives you a long, measured look before disappearing, its divine essence fading along with the opportunity it presented.",
+      "choice_score": "bad"
+    }
+  }
+  

@@ -2,14 +2,7 @@ from pydantic import BaseModel,validator,Field
 from src.schemas.user_schemas import Role
 
 class TalkTokenRequest(BaseModel):
-    god:str
-    state:str
-
-    @validator('state')
-    def state_validation(cls, v):
-        if v!='normal' and v!='disguised':
-            raise ValueError('State must be either normal or disguised')
-        return v
+    cipher_text:str
     
 
 class TalkRequest(BaseModel):

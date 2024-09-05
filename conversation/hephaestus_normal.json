@@ -1,0 +1,221 @@
+{
+    "god": "Hephaestus",
+    "god_message": "Ah, mortal, you've found your way to my forge. What brings you to the heart of fire and creation?",
+    "image_url":"https://images.unsplash.com/photo-1528918652533-dfdb3f368093?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "choice_1": {
+      "choice_description": "Praise Hephaestus' craftsmanship and the beauty of his creations.",
+      "god_message": "Your words honor me. Few recognize the depth of devotion needed to master the forge.",
+      "choice_score": "good",
+      "choice_1": {
+        "choice_description": "Request a weapon that could turn the tide of the war.",
+        "god_message": "A powerful request. Crafting such a weapon would demand a great deal of my attention.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Offer to procure rare materials for the weapon's creation.",
+          "god_message": "An intriguing offer. I shall consider it as the flames die down.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Promise to dedicate the weapon's first victory in Hephaestus' name.",
+          "god_message": "A noble gesture, but words alone carry little weight in the forge's heat.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Insist that only his weapon can ensure victory, applying pressure.",
+          "god_message": "Pressure? My creations cannot be rushed, nor can my will be swayed by demand.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_2": {
+        "choice_description": "Ask for his support in the war, emphasizing his strategic importance.",
+        "god_message": "Strategy? My role in conflict is not often seen, yet always felt.",
+        "choice_score": "neutral",
+        "choice_1": {
+          "choice_description": "Mention that the enemy fears his prowess above all.",
+          "god_message": "Fear is a powerful weapon, yet it is not the foundation of my craft.",
+          "choice_score": "neutral"
+        },
+        "choice_2": {
+          "choice_description": "Suggest that his involvement would overshadow Ares' past contributions.",
+          "god_message": "Ah, rivalry stokes the flames hotter than any coal. I shall ponder this as the metal cools.",
+          "choice_score": "good"
+        },
+        "choice_3": {
+          "choice_description": "Warn him of the consequences of remaining neutral.",
+          "god_message": "Threats to a god? A bold strategy, yet it sparks more ire than alliance.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_3": {
+        "choice_description": "Inquire about the defenses of his domain, showing concern for his safety.",
+        "god_message": "My domain is as secure as the strongest alloy. But why does this concern you?",
+        "choice_score": "neutral",
+        "choice_1": {
+          "choice_description": "Offer assistance in enhancing his domain's defenses.",
+          "god_message": "An offer of aid? Perhaps there is merit in collaboration.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Admit to seeking knowledge to protect your own domain similarly.",
+          "god_message": "Seeking knowledge is wise, but the forge's secrets are not easily shared.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Suggest that his defenses might not withstand a targeted attack.",
+          "god_message": "Doubt cast upon my creations? Such words are poorly chosen, mortal.",
+          "choice_score": "bad"
+        }
+      }
+    },
+    "choice_2": {
+      "choice_description": "Inquire about the tales of his past conflicts and how they might inform the current war.",
+      "god_message": "History is a forge itself, shaping the present from the past's raw materials.",
+      "choice_score": "neutral",
+      "choice_1": {
+        "choice_description": "Express admiration for his strategic genius in those tales.",
+        "god_message": "Appreciation for my past is rare. Your insight adds warmth to the forge.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Ask for a token from those times to inspire your forces.",
+          "god_message": "A token, you say? A small piece of history might indeed carry great power.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Request a detailed account to study and learn from.",
+          "god_message": "Knowledge is a blade's edge—sharp and dangerous. Handle it with care.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Suggest that such strategies are the only hope against current foes.",
+          "god_message": "Hope rests not in the past but in forging the future with our own hands.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_2": {
+        "choice_description": "Question the relevance of his ancient victories to modern warfare.",
+        "god_message": "Every era thinks itself modern and its predecessors outdated. Yet, the anvil's song remains the same.",
+        "choice_score": "bad",
+        "choice_1": {
+          "choice_description": "Apologize and acknowledge the timelessness of his wisdom.",
+          "god_message": "An apology? A step towards understanding the true essence of creation.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Argue that innovation outpaces tradition.",
+          "god_message": "Innovation, yes, but never at the cost of forgetting the foundation upon which it stands.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Insist that new methods will render his old victories obsolete.",
+          "god_message": "Obsolescence? My creations are eternal, as is the wisdom forged within them.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_3": {
+        "choice_description": "Seek guidance on balancing creativity with the demands of war.",
+        "god_message": "A delicate balance, indeed. Creativity fuels the flames, but war demands a careful hand.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Propose a collaboration to innovate new war strategies.",
+          "god_message": "Collaboration? An interesting alloy of ideas. Let us see if it holds under pressure.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Ask for examples of successful strategies.",
+          "god_message": "Examples abound, but remember, the best strategy is shaped to the moment's need.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Express doubt that creativity can truly influence the outcome of war.",
+          "god_message": "Doubt the forge's power? Creativity is the very anvil upon which victory is shaped.",
+          "choice_score": "bad"
+        }
+      }
+    },
+    "choice_3": {
+      "choice_description": "Mention the struggles of the common people and their need for hope.",
+      "god_message": "The forge's glow provides little warmth to those far from its flames.",
+      "choice_score": "bad",
+      "choice_1": {
+        "choice_description": "Highlight how his aid could bring inspiration and hope to many.",
+        "god_message": "Inspiration? Perhaps there is a way to channel the forge's fire towards such an end.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Offer to spread tales of his benevolence across the land.",
+          "god_message": "Tales that warm the heart can spread like wildfire. A compelling notion.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Promise to dedicate new temples in his honor.",
+          "god_message": "Temples are a testament to faith, yet it is action that stokes the forge.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Suggest that without his intervention, faith in the gods may wane.",
+          "god_message": "Faith is not so fragile, nor am I swayed by threats to it.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_2": {
+        "choice_description": "Ask for a miracle to demonstrate the gods' concern for humanity.",
+        "god_message": "Miracles? The forge's creations are miracles of craftsmanship, not whims of power.",
+        "choice_score": "neutral",
+        "choice_1": {
+          "choice_description": "Suggest that even a small sign could rekindle hope in many hearts.",
+          "god_message": "A small sign, perhaps. The sparks from the forge carry many messages.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Inquire how mortals can earn such a miracle.",
+          "god_message": "Earn? Miracles are not transactions. They are gifts, given freely or not at all.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Imply that the gods have forgotten their duty to mankind.",
+          "god_message": "Forgotten? The forge remembers all, but it does not heed the ungrateful.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_3": {
+        "choice_description": "Confess your fears for the future without divine intervention.",
+        "god_message": "Fear clouds judgment. The forge's light is brightest in the heart that remains steadfast.",
+        "choice_score": "neutral",
+        "choice_1": {
+          "choice_description": "Express faith in Hephaestus' ability to shape a brighter future.",
+          "god_message": "Your faith is noted. Like metal in the forge, it must be tested to reveal its strength.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Ask for guidance on how to remain hopeful.",
+          "god_message": "Guidance? Look to the fire. In its persistent warmth, find your hope.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Voice skepticism about the gods' willingness to aid mortals.",
+          "god_message": "Skepticism can forge wisdom or folly. Beware the latter, mortal.",
+          "choice_score": "bad"
+        }
+      }
+    },
+    "bonus_question":{
+      "choice_description": "One more thing...",
+      "god_message": "How many schools come under the College of Engineering in NTU?",
+      "choice_score": "neutral",
+      "choice_1": {
+          "choice_description": "3",
+          "god_message": "Not quite. I need time to think on your request. Return to your world, mortal.",
+          "choice_score": "bad"
+      },
+      "choice_2": {
+          "choice_description": "4",
+          "god_message": "Not quite. I need time to think on your request. Return to your world, mortal.",
+          "choice_score": "bad"
+      },
+      "choice_3": {
+          "choice_description": "6",
+          "god_message": "Very good. I shall consider your request. Return to your world, mortal.",
+          "choice_score": "good"
+      }
+  }
+  }
+  

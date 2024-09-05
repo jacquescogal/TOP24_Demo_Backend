@@ -11,7 +11,7 @@ class ConnectionController:
         self.username_websocket_map:Dict[str,WebSocket] = {} # check if user connected before accepting connection
         self.team_username_map:Dict[Tuple[str],Set[str]] = {}
         self.room_time_expire:Dict[Tuple[str],float] = {}
-        self.total_time = 10 * 1000
+        self.total_time = 20 * 1000
     
     @classmethod
     async def get_instance(cls):
@@ -61,15 +61,20 @@ class ConnectionController:
             return len(self.team_username_map[room_tuple])
         return 0
     
-    async def start_room(self,room: Room):
+    async def start_room(self,room: Room, room_time: int = 20):
         room_tuple=(room.team_name,room.god,room.state)
-        self.room_time_expire[room_tuple] = int(datetime.now().timestamp() * 1000) + self.total_time
+        self.room_time_expire[room_tuple] = int(datetime.now().timestamp() * 1000) + min(self.total_time,room_time*1000)
 
 
     async def get_time_left(self, room: Room):
         room_tuple=(room.team_name,room.god,room.state)
         if self.room_time_expire.get(room_tuple,None) is None:
             await self.start_room(room)
+        return max(0,self.room_time_expire[room_tuple] - int(datetime.now().timestamp() * 1000))
+    async def set_time_left(self, room: Room, time_left: int):
+        room_tuple=(room.team_name,room.god,room.state)
+        if self.room_time_expire.get(room_tuple,None) is None:
+            await self.start_room(room, time_left)
         return max(0,self.room_time_expire[room_tuple] - int(datetime.now().timestamp() * 1000))
     
     async def get_total_time(self):

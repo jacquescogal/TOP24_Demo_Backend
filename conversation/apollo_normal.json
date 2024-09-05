@@ -1,0 +1,221 @@
+{
+    "god": "Apollo",
+    "god_message": "Welcome, mortal, to the realm of light and prophecy. What quest brings you to seek the favor of Apollo?",
+    "image_url":"https://images.unsplash.com/photo-1528217580778-96e570819666?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "choice_1": {
+      "choice_description": "Seek Apollo's insight into the future to better prepare for the war.",
+      "god_message": "Ah, foresight is a gift and a burden. But your pursuit of knowledge is commendable.",
+      "choice_score": "good",
+      "choice_1": {
+        "choice_description": "Ask for a prophecy that could reveal the outcome of the war.",
+        "god_message": "Prophecy is a delicate weave. I shall reveal a thread, though its meaning may be obscure.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Promise to interpret the prophecy with wisdom and discretion.",
+          "god_message": "Wisdom in interpretation is key. Reflect well on my words.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Seek clarification on the prophecy's most cryptic elements.",
+          "god_message": "Understanding requires patience and insight. I shall watch your endeavors.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Demand a more straightforward prophecy.",
+          "god_message": "Demands do not sway the visions. The future remains shrouded.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_2": {
+        "choice_description": "Inquire how best to use this knowledge to gain an advantage.",
+        "god_message": "Knowledge shapes destiny. Use it to guide, not to dictate.",
+        "choice_score": "neutral",
+        "choice_1": {
+          "choice_description": "Plan to share the insights with allies to strengthen bonds.",
+          "god_message": "Sharing light can forge strong alliances. Proceed with care.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Suggest keeping the prophecy secret to maintain an upper hand.",
+          "god_message": "Secrecy can be powerful, yet divisive. Consider the path you choose.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Propose using the prophecy to intimidate enemies.",
+          "god_message": "Intimidation shadows the truth. Beware the consequences.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_3": {
+        "choice_description": "Request a personal prophecy to ensure victory in a specific battle.",
+        "god_message": "The fates of battles are complex, intertwined with countless threads.",
+        "choice_score": "bad",
+        "choice_1": {
+          "choice_description": "Offer to dedicate the battle victory to Apollo's glory.",
+          "god_message": "Dedication is noble. I shall consider aligning the threads in your favor.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Promise to build a temple in his honor with the spoils of war.",
+          "god_message": "Temples stand as beacons of faith. Your offer holds merit.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Threaten to forsake him for another god if denied.",
+          "god_message": "Faith that wavers under threat is no faith at all. Reflect on your devotion.",
+          "choice_score": "bad"
+        }
+      }
+    },
+    "choice_2": {
+      "choice_description": "Appeal to Apollo's love of music and poetry, offering a grand performance.",
+      "god_message": "Art and music are the essence of life. Your tribute intrigues me.",
+      "choice_score": "neutral",
+      "choice_1": {
+        "choice_description": "Compose an epic that glorifies Apollo's deeds.",
+        "god_message": "An epic in my honor? Such creativity may indeed catch my favor.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Ensure the epic is performed throughout the land.",
+          "god_message": "Spread the word of my deeds, and let the people rejoice in the telling.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Ask for Apollo's divine inspiration to perfect the composition.",
+          "god_message": "Seeking divine muse? Your humility and dedication shall be rewarded.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Boast that this epic will surpass all others, even those favored by Apollo.",
+          "god_message": "Ambition is to be admired, but hubris shadows the heart. Tread carefully.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_2": {
+        "choice_description": "Promise to dedicate a festival of music and arts in his honor.",
+        "god_message": "A festival to celebrate the arts is a worthy endeavor. Let us see if it aligns with destiny.",
+        "choice_score": "neutral",
+        "choice_1": {
+          "choice_description": "Involve artists and musicians dedicated to Apollo's worship.",
+          "god_message": "Devoted followers enhance the splendor of the festivity. A promising proposal.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Suggest a competition to find the best new hymn for Apollo.",
+          "god_message": "Competition breeds excellence. Your idea holds potential.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Claim the festival will make Apollo more popular than Dionysus.",
+          "god_message": "Rivalry among gods is not the foundation of true worship. Reflect on your intentions.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_3": {
+        "choice_description": "Offer to build a monument that captures Apollo's beauty and skill.",
+        "god_message": "A monument to immortalize my essence? Your ambition is as vast as the sky.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Collaborate with the finest sculptors and artists for its creation.",
+          "god_message": "Such collaboration honors both the divine and the craft. I shall consider your offer.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Ensure the monument stands at the site of a major victory.",
+          "god_message": "Monuments mark history's turning points. Your plan will be weighed.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Vow that its beauty will eclipse even the sun.",
+          "god_message": "Even the sun cannot be eclipsed by mortal hands. Beware pride, for it often precedes a fall.",
+          "choice_score": "bad"
+        }
+      }
+    },
+    "choice_3": {
+      "choice_description": "Implore Apollo for healing and protection against the plague ravaging your lands.",
+      "god_message": "Plague and sickness challenge both mortal and divine. Your plea has reached my ears.",
+      "choice_score": "good",
+      "choice_1": {
+        "choice_description": "Offer prayers and sacrifices to Apollo for his intervention.",
+        "god_message": "Your faith and devotion shine brightly. Such acts cannot be ignored.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Promise to honor Apollo with a temple to health and healing.",
+          "god_message": "A temple dedicated to healing is a sanctuary of hope. Your vow is noted.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Initiate a campaign to improve public health in his name.",
+          "god_message": "Actions in my name that bring healing are worthy. I will observe your progress.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Warn that the people's faith may wane without divine assistance.",
+          "god_message": "Faith tested by trials may falter, but it is through action, not threats, that favor is earned.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_2": {
+        "choice_description": "Seek a divine artifact to cure the afflicted.",
+        "god_message": "Artifacts of divine nature hold great power. Their use must be weighed with care.",
+        "choice_score": "neutral",
+        "choice_1": {
+          "choice_description": "Pledge to use the artifact only for the common good.",
+          "god_message": "Your pledge aligns with the virtues of compassion and duty. Let it be so.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Propose to study the artifact to advance medical knowledge.",
+          "god_message": "Advancing knowledge is noble, but some secrets are not meant for mortals.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Suggest that the artifact could grant you power over life and death.",
+          "god_message": "Power over life and death is not a plaything. Consider your words carefully.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_3": {
+        "choice_description": "Beg Apollo to personally visit and heal the sick.",
+        "god_message": "A personal appeal to the god of healing is bold. The scales of fate will measure your request.",
+        "choice_score": "bad",
+        "choice_1": {
+          "choice_description": "Vow to spread tales of his mercy and compassion.",
+          "god_message": "Tales of divine mercy inspire faith. Your commitment will be remembered.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Promise to lead a reformation of worship practices in his honor.",
+          "god_message": "Reformation requires dedication. I shall see if your actions match your words.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Threaten to renounce him if he does not comply.",
+          "god_message": "Renunciation is a grave step. Reflect on the path of faith and where it truly leads.",
+          "choice_score": "bad"
+        }
+      }
+    },
+    "bonus_question":{
+      "choice_description": "One more thing...",
+      "god_message": "How many satellites has NTU designed, built and sent into Earth's orbit till date?",
+      "choice_score": "neutral",
+      "choice_1": {
+          "choice_description": "9",
+          "god_message": "Not quite. I need time to think on your request. Return to your world, mortal.",
+          "choice_score": "bad"
+      },
+      "choice_2": {
+          "choice_description": "11",
+          "god_message": "Not quite. I need time to think on your request. Return to your world, mortal.",
+          "choice_score": "bad"
+      },
+      "choice_3": {
+          "choice_description": "13",
+          "god_message": "Very good. I shall consider your request. Return to your world, mortal.",
+          "choice_score": "good"
+      }
+  }
+  }
+  

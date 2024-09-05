@@ -1,0 +1,95 @@
+{
+    "god": "Athena",
+    "god_message": "Before you is a magnificent olive tree, its leaves shimmering with a hint of silver, standing strong and wise in the center of a serene grove. A palpable aura of calm and intelligence envelops the area.",
+    "image_url":"https://images.unsplash.com/photo-1605812168143-cf9988908162?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "choice_1": {
+      "choice_description": "Approach the tree with reverence, acknowledging its ancient wisdom.",
+      "god_message": "The leaves rustle gently as if welcoming your respect.",
+      "choice_score": "good",
+      "choice_1": {
+        "choice_description": "Offer a prayer for wisdom and guidance beneath its boughs.",
+        "god_message": "A soft, whispering wind seems to carry your words upward, the tree's presence becoming more pronounced.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Pledge to uphold justice and wisdom in your deeds.",
+          "god_message": "The olive tree transforms into Athena, who nods approvingly at your pledge.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Ask for the knowledge to outwit your enemies.",
+          "god_message": "Athena reveals herself, contemplating your request with a measured gaze.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Demand the power to crush those who oppose you.",
+          "god_message": "The tree's leaves shudder, and Athena, emerging, expresses disappointment before departing.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_2": {
+        "choice_description": "Tie a ribbon around its branch as a token of your visit.",
+        "god_message": "The tree seems to acknowledge the gesture, a single olive falling at your feet.",
+        "choice_score": "neutral",
+        "choice_1": {
+          "choice_description": "Pick up the olive as a symbol of peace and wisdom.",
+          "god_message": "Athena, appearing before you, regards you with a hint of curiosity and respect.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Ignore the olive, focusing on your immediate goal.",
+          "god_message": "The tree's aura dims, Athena's presence recedes as your opportunity slips away.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Crush the olive underfoot, showing disdain for such signs.",
+          "god_message": "The grove darkens momentarily, and when the light returns, Athena is gone.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_3": {
+        "choice_description": "Carve your name into the tree, marking your presence.",
+        "god_message": "The air around you grows cold, and the serene aura quickly vanishes.",
+        "choice_score": "bad"
+      }
+    },
+    "choice_2": {
+      "choice_description": "Circle the tree, searching for any signs of divine presence.",
+      "god_message": "The tree stands silent, its aura of wisdom palpable yet unyielding.",
+      "choice_score": "neutral",
+      "choice_1": {
+        "choice_description": "Speak words of respect for Athena, hoping to attract her attention.",
+        "god_message": "The leaves shimmer more brightly, responding to the mention of Athena.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Kneel and offer a silent prayer to Athena, seeking her favor.",
+          "god_message": "The olive tree reveals its true form as Athena, who steps forward with a look of approval.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Express a wish to learn and grow under Athena's guidance.",
+          "god_message": "Athena reveals herself, acknowledging your desire for growth with a nod of respect, yet she cautions you that wisdom requires patience.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Boast of your intellect, comparing it to Athena's wisdom.",
+          "god_message": "The grove becomes eerily quiet, and Athena's test ends, leaving you alone.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_2": {
+        "choice_description": "Sit quietly, meditating on the virtues of wisdom and warfare.",
+        "god_message": "A calm envelopes you, but the divine presence remains a distant observer.",
+        "choice_score": "neutral"
+      },
+      "choice_3": {
+        "choice_description": "Attempt to harvest olives, viewing them as mere fruit.",
+        "god_message": "The tree recoils from your touch, and the sense of wisdom fades away.",
+        "choice_score": "bad"
+      }
+    },
+    "choice_3": {
+      "choice_description": "Ignore the tree, believing it to hold no special significance.",
+      "god_message": "As you walk away, the sense of something profound being missed lingers in the air.",
+      "choice_score": "bad"
+    }
+  }

@@ -1,0 +1,220 @@
+{
+    "god": "Dionysus",
+    "god_message": "Ah, seeker of thrills and ecstasy, you've stumbled into my revelry. What desire drives you to Dionysus, the god of wine and festivity?",
+    "image_url":"https://images.unsplash.com/photo-1625266462942-f8535427d87a?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "choice_1": {
+      "choice_description": "Appeal to Dionysus' love of celebration, proposing a grand festival in his honor.",
+      "god_message": "A festival, you say? My heart sings at the thought. Tell me, how would you honor the god of merriment?",
+      "choice_score": "good",
+      "choice_1": {
+        "choice_description": "Promise to dedicate the wildest party the world has ever seen to him.",
+        "god_message": "Such a promise ignites my spirit! A party without end... I shall consider your proposal as the wine flows.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Vow to import exotic wines and delicacies for the occasion.",
+          "god_message": "Exotic flavors to tempt the palate? Intriguing... I shall muse over your offer with a full cup.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Suggest a contest of poetry and music, celebrating his legends.",
+          "god_message": "Poetry and music to honor my tales? A fine tribute, yet let us see how the night unfolds.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Insist that only his divine wine can truly sanctify the festival.",
+          "god_message": "Demands, mortal? Even my divine nectar cannot be summoned at whim. Patience, like wine, must be savored.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_2": {
+        "choice_description": "Offer to spread his cult to lands where his name is yet unknown.",
+        "god_message": "To carry my name across uncharted realms? A tempting vision, yet the path is fraught with peril.",
+        "choice_score": "neutral",
+        "choice_1": {
+          "choice_description": "Commit to founding vineyards in his name across these new lands.",
+          "god_message": "Vineyards in my honor, spanning the horizons? Such ambition... I will ponder your words amidst the vines.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Suggest organizing mysterious rites to draw in the curious.",
+          "god_message": "Mystery begets fascination. Your plan has merit, yet its success remains to be seen.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Warn that without his presence, the lands will fall to sobriety and despair.",
+          "god_message": "A world without wine and joy? A dire prediction, yet threats do little to sway the heart of revelry.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_3": {
+        "choice_description": "Inquire about the secrets of his winemaking, seeking his unparalleled expertise.",
+        "god_message": "Ah, the art of the vine... It is a craft few mortals can truly comprehend. What is it you seek?",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Request a personal lesson to create a wine that mirrors the gods' nectar.",
+          "god_message": "To craft a wine akin to ambrosia? A lofty goal. I shall consider sharing my secrets as the barrel empties.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Offer to share the finest mortal wines in exchange for his knowledge.",
+          "god_message": "A trade of tastes? Mortal wine for divine? Intriguing, yet the value of such a swap remains uncertain.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Claim that with his guidance, you could surpass even his skill.",
+          "god_message": "Surpass me, you say? Ambition ferments boldness, but beware lest the wine turn sour.",
+          "choice_score": "bad"
+        }
+      }
+    },
+    "choice_2": {
+      "choice_description": "Praise Dionysus' ability to liberate and transcend mundane existence through ecstasy.",
+      "god_message": "Flattery, mortal? Liberation through ecstasy is indeed my domain. How do you propose we celebrate this transcendence?",
+      "choice_score": "neutral",
+      "choice_1": {
+        "choice_description": "Propose establishing a new ritual that embodies true freedom and revelry.",
+        "god_message": "A new ritual, you say? If it can stir the soul to true freedom, I am intrigued. Let us see where this path leads.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Suggest a night of uninhibited festivities, where all are equal under your gaze.",
+          "god_message": "Equality in celebration... A noble concept. I shall reflect on your proposal with interest.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Offer to lead the ritual personally, embodying the spirit of Dionysus.",
+          "god_message": "To embody my spirit? A daunting task. I am curious to see if you could bear such a mantle.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Claim that such a ritual could make you more beloved than Dionysus himself.",
+          "god_message": "More beloved than I? Bold words often lead to bitter wine. Consider your words carefully.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_2": {
+        "choice_description": "Volunteer to spread tales of Dionysus' exploits, glorifying his name.",
+        "god_message": "Tales of my exploits, spread far and wide? A delightful notion, yet tales alone are not enough.",
+        "choice_score": "neutral",
+        "choice_1": {
+          "choice_description": "Offer to write and perform epic poems in his honor.",
+          "god_message": "Epic poems, you say? The muse stirs. Your offering will be considered as the festivities continue.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Suggest organizing plays and dramas depicting his greatest adventures.",
+          "god_message": "Drama and spectacle to recount my adventures? Enticing, yet the stage's allure may not capture the essence of revelry.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Insist that such stories will make other gods envious of his renown.",
+          "god_message": "Envy among the divine is a perilous wine to ferment. Tread carefully, lest you sour the batch.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_3": {
+        "choice_description": "Seek Dionysus' guidance in crafting a potion to experience divine ecstasy.",
+        "god_message": "A potion for divine ecstasy? You tread a vine-wrapped path. Yet, what form does your curiosity take?",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Ask for an elixir that grants visions of other realms.",
+          "god_message": "Visions of other realms, a sip away... Your quest for understanding is tempting. I will contemplate as the goblet empties.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Promise to use the potion to deepen worship among his followers.",
+          "god_message": "Deepening worship through transcendence? A worthy goal, yet the mind's journey is unpredictable.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Boast that with his potion, you could surpass even the oracles in insight.",
+          "god_message": "Surpass the oracles? Your confidence ferments arrogance. Reflect on the potency of humility.",
+          "choice_score": "bad"
+        }
+      }
+    },
+    "choice_3": {
+      "choice_description": "Express a desire to understand the dual nature of joy and suffering, seeking Dionysus' wisdom.",
+      "god_message": "Joy and suffering, two vines intertwined in the human condition. How do you wish to explore these depths?",
+      "choice_score": "neutral",
+      "choice_1": {
+        "choice_description": "Propose a philosophical gathering to discuss the balance of life's pleasures and pains.",
+        "god_message": "A gathering for philosophical debate? Such discourse could prove intoxicating. I am intrigued by your approach.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Invite thinkers and poets to share their insights on the matter.",
+          "god_message": "Inviting the minds of the age to ponder life's great tapestry? A splendid soirée awaits. Let us consider this further.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Suggest that through understanding, mortals can better appreciate the divine.",
+          "god_message": "Appreciation through understanding... An interesting vintage. Yet, true appreciation comes from experience, not just discussion.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Claim that such discussions could elevate you above Dionysus in wisdom.",
+          "god_message": "Elevate above me? The grape does not surpass the vine. Beware the hubris that accompanies such claims.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_2": {
+        "choice_description": "Request guidance on how to embrace joy fully, without fear of eventual suffering.",
+        "god_message": "To embrace joy without fear of suffering... A quest for many souls. What path do you propose?",
+        "choice_score": "neutral",
+        "choice_1": {
+          "choice_description": "Seek initiation into the mysteries of Dionysus, to transcend mortal fears.",
+          "god_message": "Initiation into the mysteries? A profound journey. Your request bears the weight of many harvests. I will ponder your courage.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Offer to lead others in embracing life's fleeting pleasures as a lesson.",
+          "god_message": "Leading others to joy is a noble cause. Yet, remember, the lesson of the vine is also in its growth, not just its fruit.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Boast that you can teach mortals to avoid suffering altogether.",
+          "god_message": "Avoid suffering altogether? Such claims misunderstand the essence of existence. Contemplate the role of shadows in the light of joy.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_3": {
+        "choice_description": "Explore the concept of catharsis through art and drama, as a means to heal and understand.",
+        "god_message": "Catharsis, the soul's purging through art... Your insight touches upon a truth close to my essence.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Plan to produce plays that reflect the human condition, offering insight and release.",
+          "god_message": "Plays that mirror the soul's journey? A worthy endeavor. Your vision will be considered as the final act approaches.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Offer to create a traveling troupe dedicated to spreading cathartic experiences.",
+          "god_message": "A traveling troupe, you say? The road is both stage and sanctuary. I am curious to see where your path leads.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Suggest that such endeavors could make you a greater patron of the arts than Dionysus.",
+          "god_message": "Greater than I? The stage is broad, but the spotlight reveals truth. Consider the pride that accompanies such bold statements.",
+          "choice_score": "bad"
+        }
+      }
+    },
+    "bonus_question":{
+      "choice_description": "One more thing...",
+      "god_message": "If you ever fall sick or want to chao keng, what is the alternative to Fullerton Health?",
+      "choice_score": "neutral",
+      "choice_1": {
+          "choice_description": "Ayurvedic Medicine Clinic",
+          "god_message": "Not quite. I need time to think on your request. Return to your world, mortal.",
+          "choice_score": "bad"
+      },
+      "choice_2": {
+          "choice_description": "Kampo Medicine Clinic",
+          "god_message": "Not quite. I need time to think on your request. Return to your world, mortal.",
+          "choice_score": "bad"
+      },
+      "choice_3": {
+          "choice_description": "Traditional Chinese Medicine Clinic",
+          "god_message": "Very good. I shall consider your request. Return to your world, mortal.",
+          "choice_score": "good"
+      }
+  }
+  }

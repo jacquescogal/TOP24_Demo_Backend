@@ -1,0 +1,125 @@
+{
+    "god": "Aphrodite",
+    "god_message": "Before you stands a majestic swan, its feathers shimmering with an otherworldly glow. A sense of divine presence surrounds it.",
+    "choice_1": {
+        "choice_description": "Offer a golden necklace to the swan, recognizing the divine aura.",
+        "god_message": "The swan's eyes glimmer with interest, and it nods gracefully.",
+        "choice_score": "good",
+        "choice_1": {
+            "choice_description": "Speak gently about the beauty of love and companionship.",
+            "god_message": "The swan flutters its wings delightfully, a warm aura emanating from it.",
+            "choice_score": "good",
+            "choice_1": {
+                "choice_description": "Promise to always honor the sanctity of love.",
+                "god_message": "The swan transforms into the radiant Aphrodite, smiling with approval.",
+                "choice_score": "good"
+            },
+            "choice_2": {
+                "choice_description": "Discuss the fleeting nature of physical beauty.",
+                "god_message": "Aphrodite reveals herself, expressing mild approval but with a hint of disappointment.",
+                "choice_score": "neutral"
+            },
+            "choice_3": {
+                "choice_description": "Boast about your own romantic conquests.",
+                "god_message": "Aphrodite, displeased, ends the encounter abruptly.",
+                "choice_score": "bad"
+            }
+        },
+        "choice_2": {
+            "choice_description": "Mention the swan\u2019s resemblance to Zeus\u2019 disguises.",
+            "god_message": "The swan seems to bristle, an aura of discomfort arising.",
+            "choice_score": "neutral",
+            "choice_1": {
+                "choice_description": "Quickly change the topic to the beauty of nature.",
+                "god_message": "The swan relaxes slightly but maintains a reserved demeanor.",
+                "choice_score": "neutral"
+            },
+            "choice_2": {
+                "choice_description": "Apologize and speak of the swan's unique beauty.",
+                "god_message": "The swan seems pleased, revealing itself as Aphrodite, but with a note of reservation.",
+                "choice_score": "good"
+            },
+            "choice_3": {
+                "choice_description": "Attempt to touch the swan.",
+                "god_message": "Aphrodite, in her swan form, swiftly moves away, ending the encounter.",
+                "choice_score": "bad"
+            }
+        },
+        "choice_3": {
+            "choice_description": "Attempt to capture the swan, suspecting its divine nature.",
+            "god_message": "The swan recoils and flees, its divine aura vanishing.",
+            "choice_score": "bad"
+        }
+    },
+    "choice_2": {
+        "choice_description": "Sing a hymn in honor of the gods, eyeing the swan.",
+        "god_message": "The swan listens intently, its head tilting in curiosity.",
+        "choice_score": "neutral",
+        "choice_1": {
+            "choice_description": "Praise the virtues of Aphrodite in your song.",
+            "god_message": "The swan seems pleased, a warm glow emanating from it.",
+            "choice_score": "good",
+            "choice_1": {
+                "choice_description": "Offer a heartfelt prayer to Aphrodite.",
+                "god_message": "Aphrodite reveals herself, touched by your devotion.",
+                "choice_score": "good"
+            },
+            "choice_2": {
+                "choice_description": "Comment on the swan's beauty, comparing it to Aphrodite's.",
+                "god_message": "Aphrodite, though flattered, remains in her disguise, mildly pleased.",
+                "choice_score": "neutral"
+            },
+            "choice_3": {
+                "choice_description": "Ask the swan for a favor in love.",
+                "god_message": "Aphrodite, unimpressed by your selfish request, ends the encounter abruptly.",
+                "choice_score": "bad"
+            }
+        },
+        "choice_2": {
+            "choice_description": "Sing about the triumphs of Zeus and Hera.",
+            "god_message": "The swan appears indifferent, maintaining a respectful distance.",
+            "choice_score": "neutral"
+        },
+        "choice_3": {
+            "choice_description": "Include verses about your own heroic deeds.",
+            "god_message": "The swan seems unimpressed and soon drifts away.",
+            "choice_score": "bad"
+        }
+    },
+    "choice_3": {
+        "choice_description": "Observe the swan quietly, trying to discern its true nature.",
+        "god_message": "The swan regards you with a curious, yet cautious gaze.",
+        "choice_score": "neutral",
+        "choice_1": {
+            "choice_description": "Approach slowly, showing respect and admiration.",
+            "god_message": "The swan allows your approach, its aura growing warmer.",
+            "choice_score": "good",
+            "choice_1": {
+                "choice_description": "Express your admiration for the swan's grace.",
+                "god_message": "The swan reveals itself as Aphrodite, pleased by your respect.",
+                "choice_score": "good"
+            },
+            "choice_2": {
+                "choice_description": "Maintain a respectful distance, continuing to observe.",
+                "god_message": "Aphrodite, in her swan form, regards you with a neutral expression before departing.",
+                "choice_score": "neutral"
+            },
+            "choice_3": {
+                "choice_description": "Attempt to feed the swan.",
+                "god_message": "The swan, not interested in the food, swims away.",
+                "choice_score": "bad"
+            }
+        },
+        "choice_2": {
+            "choice_description": "Wait for the swan to make the first move.",
+            "god_message": "The swan maintains its distance, unyielding in its stance.",
+            "choice_score": "neutral"
+        },
+        "choice_3": {
+            "choice_description": "Try to lure the swan with bread crumbs.",
+            "god_message": "The swan, offended by the mundane offering, quickly departs.",
+            "choice_score": "bad"
+        }
+    },
+    "image_url": "https://images.unsplash.com/photo-1612979128493-42f7790b7ae4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+}

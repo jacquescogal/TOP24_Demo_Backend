@@ -1,0 +1,110 @@
+{
+  "god": "Ares",
+  "god_message": "Before you, a mysterious stranger sits at a table, absorbed in a game of Zatrikon, an ancient board game resembling chess. The pieces seem to move with a life of their own, hinting at the stranger's divine nature.",
+  "image_url":"https://images.unsplash.com/photo-1547641813-cf1ade37561e?q=80&w=1978&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "choice_1": {
+    "choice_description": "Politely ask to join the game, showing respect for the stranger's skill.",
+    "god_message": "The stranger's eyes light up with a challenge, welcoming you to the game.",
+    "choice_score": "good",
+    "choice_1": {
+      "choice_description": "Adopt an aggressive strategy, aiming to impress with bold moves.",
+      "god_message": "He nods in approval, intrigued by your audacity and tactical aggression.",
+      "choice_score": "good",
+      "choice_1": {
+        "choice_description": "Compliment the stranger on a cunning move, showing sportsmanship.",
+        "god_message": "Pleased by your respect and skill, the stranger reveals himself as Ares, god of war, impressed by your prowess.",
+        "choice_score": "good"
+      },
+      "choice_2": {
+        "choice_description": "Push for a quick victory, focusing solely on the game.",
+        "god_message": "Ares, reveals himself, acknowledges your commitment but wishes for a more nuanced approach.",
+        "choice_score": "neutral"
+      },
+      "choice_3": {
+        "choice_description": "Taunt the stranger, claiming superiority in strategy.",
+        "god_message": "The game ends abruptly as the stranger vanishes, leaving a chill in the air, unimpressed by your arrogance.",
+        "choice_score": "bad"
+      }
+    },
+    "choice_2": {
+      "choice_description": "Balance offense and defense, aiming for a strategic depth.",
+      "god_message": "The stranger studies your moves with a thoughtful gaze, appreciating your balanced approach.",
+      "choice_score": "neutral",
+      "choice_1": {
+        "choice_description": "Offer a draw, respecting the stranger's skill.",
+        "god_message": "Intrigued by your gesture, the stranger, revealing himself as Ares, considers your strategic mind.",
+        "choice_score": "good"
+      },
+      "choice_2": {
+        "choice_description": "Attempt a risky maneuver to turn the tide.",
+        "god_message": "The stranger remains in his disguise, observes your gamble with a neutral expression, pondering your boldness.",
+        "choice_score": "neutral"
+      },
+      "choice_3": {
+        "choice_description": "Mock the stranger's cautious play, urging more daring.",
+        "god_message": "The game comes to an immediate halt. The stranger's departure leaves you alone with your mockery.",
+        "choice_score": "bad"
+      }
+    },
+    "choice_3": {
+      "choice_description": "Use the game to draw parallels between strategy and warfare.",
+      "god_message": "The stranger's interest is piqued by your analogy, seeing depth in your understanding.",
+      "choice_score": "good",
+      "choice_1": {
+        "choice_description": "Discuss the importance of knowing one's enemy.",
+        "god_message": "Nodding in agreement, the stranger, now revealed as Ares, commends your wisdom.",
+        "choice_score": "good"
+      },
+      "choice_2": {
+        "choice_description": "Cite historical battles as examples of strategic genius.",
+        "god_message": "Ares, intrigued by your knowledge, reveals himself.",
+        "choice_score": "neutral"
+      },
+      "choice_3": {
+        "choice_description": "Claim that no enemy has ever outsmarted you.",
+        "god_message": "The stranger fades away, unimpressed by your boastfulness, leaving you to reflect on your hubris.",
+        "choice_score": "bad"
+      }
+    }
+  },
+  "choice_2": {
+    "choice_description": "Comment on the beauty of the game's pieces, wondering about their history.",
+    "god_message": "The stranger smiles slightly, curious about your interest in the game's aesthetics.",
+    "choice_score": "neutral",
+    "choice_1": {
+      "choice_description": "Ask if the pieces are modeled after historical or mythical battles.",
+      "god_message": "Fascinated by your insight, the stranger shares tales of ancient conflicts.",
+      "choice_score": "good",
+      "choice_1": {
+        "choice_description": "Express a wish to learn more about these battles to improve your own strategy.",
+        "god_message": "Ares, impressed by your eagerness to learn and grow stronger, reveals himself, commending your pursuit of knowledge.",
+        "choice_score": "good"
+        },
+        "choice_2": {
+        "choice_description": "Admire the artistry, but question the practicality of such detailed pieces.",
+        "god_message": "Though he appreciates your eye for detail, the stranger, still disguised, wonders about your focus.",
+        "choice_score": "bad"
+        },
+        "choice_3": {
+        "choice_description": "Suggest you could craft even more magnificent pieces, boasting of your skill.",
+        "god_message": "The stranger's interest cools as he fades away, disappointed by your arrogance, leaving you alone with your claims.",
+        "choice_score": "bad"
+        }
+    },
+    "choice_2": {
+      "choice_description": "Express a desire to own a similar set, admiring its craftsmanship.",
+      "god_message": "The stranger nods, appreciating your appreciation but remains non-committal, pondering your material interest.",
+      "choice_score": "neutral"
+    },
+    "choice_3": {
+      "choice_description": "Suggest that you could make better pieces, boasting of your skill.",
+      "god_message": "Offended by your arrogance, the game ends, and the stranger disappears without a word.",
+      "choice_score": "bad"
+    }
+  },
+  "choice_3": {
+    "choice_description": "Challenge the stranger to a game, confident in your ability to win.",
+    "god_message": "The stranger raises an eyebrow, intrigued by your confidence but sensing your arrogance.",
+    "choice_score": "bad"
+  }
+}

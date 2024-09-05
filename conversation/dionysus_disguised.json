@@ -1,0 +1,95 @@
+{
+    "god": "Dionysus",
+    "god_message": "Before you is a vine-covered trellis, dripping with ripe, succulent grapes under a canopy that shimmers with an ethereal light. The air is thick with the sweet scent of fermentation, suggesting the presence of something or someone divine.",
+    "image_url":"https://images.unsplash.com/photo-1531510960996-1b17764f4b6b?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "choice_1": {
+      "choice_description": "Gather the grapes gently, offering thanks for their abundance.",
+      "god_message": "The vines quiver with delight, and the scent of wine grows stronger, as if pleased by your gratitude.",
+      "choice_score": "good",
+      "choice_1": {
+        "choice_description": "Sing a hymn to celebrate the harvest and the joy it brings.",
+        "god_message": "A soft, melodic hum fills the air, the vines swaying as if dancing to your tune.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Promise to share the wine made from these grapes with those in need of cheer.",
+          "god_message": "The trellis transforms into Dionysus, who appears with a broad smile, approving of your intention to spread joy.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Suggest a toast to the unknown guardian of the vine, hoping for a bountiful future.",
+          "god_message": "Dionysus reveals himself, his eyes twinkling with amusement at your indirect praise, but sensing your hesitation.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Claim that your wine will become more renowned than any divine brew.",
+          "god_message": "The presence withdraws, leaving behind a fading glow as Dionysus departs, unimpressed by your arrogance.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_2": {
+        "choice_description": "Comment on the perfection of the grapes, pondering the secrets of their cultivation.",
+        "god_message": "The air vibrates with curiosity, the light around the trellis glowing slightly brighter.",
+        "choice_score": "neutral",
+        "choice_1": {
+          "choice_description": "Speculate on the divine influence in their growth, expressing awe.",
+          "god_message": "The glow intensifies, a sense of warmth spreading as Dionysus decides to reveal himself, intrigued by your reverence.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Express a desire to learn more about viticulture to improve your own harvest.",
+          "god_message": "The shimmer dims slightly, the divine presence around the trellis contemplating your quest for knowledge.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Boast that you could grow even finer grapes with the right resources.",
+          "god_message": "The light fades, and the sweet scent turns sour as Dionysus decides to leave, disappointed by your hubris.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_3": {
+        "choice_description": "Plan to sell the grapes at a high price, marveling at the fortune they'll bring.",
+        "god_message": "The ethereal light dims, and the sweet air becomes stagnant, signaling disapproval of your greed.",
+        "choice_score": "bad"
+      }
+    },
+    "choice_2": {
+      "choice_description": "Perform a dance among the vines, celebrating the natural beauty and bounty.",
+      "god_message": "The ground beneath you seems to pulse with energy, the vines rustling in rhythm to your movements.",
+      "choice_score": "neutral",
+      "choice_1": {
+        "choice_description": "Dedicate your dance to the spirit of festivity and renewal.",
+        "god_message": "The rustling grows louder, and a gentle laughter fills the air, as Dionysus chooses to reveal himself, delighted by your tribute.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Offer to host a feast in honor of the god, using the vineyard's bounty.",
+          "god_message": "Dionysus, fully manifested, raises a cup in salute, moved by your offer to celebrate together.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Invite others to join in the dance, spreading the joy and spirit of the vineyard.",
+          "god_message": "Though Dionysus is pleased with your inclusivity, he remains partly concealed, pondering your intentions.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Claim the vineyard's prosperity is due to your presence, not divine favor.",
+          "god_message": "The laughter stops, and the vines still; Dionysus's presence fades away, unimpressed by your claim.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_2": {
+        "choice_description": "Wonder aloud about the origins of such a mystical place, untouched by human hands.",
+        "god_message": "The atmosphere holds its breath, waiting for a deeper recognition of its true nature.",
+        "choice_score": "neutral"
+      },
+      "choice_3": {
+        "choice_description": "Discuss plans to expand the vineyard, considering the economic benefits.",
+        "god_message": "The pulsing energy recedes, and the air grows colder, disheartened by your focus on profit.",
+        "choice_score": "bad"
+      }
+    },
+    "choice_3": {
+      "choice_description": "Ignore the vines, searching instead for a hidden treasure rumored to be in the area.",
+      "god_message": "The shimmering canopy fades, and the sweet scents dissipate, as if the divine presence has been dismissed by your indifference.",
+      "choice_score": "bad"
+    }
+  }

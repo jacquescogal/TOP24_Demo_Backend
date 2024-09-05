@@ -1,0 +1,96 @@
+{
+    "god": "Hermes",
+    "god_message": "Before you stands a clever-looking fox, its eyes twinkling with mischief and intelligence. A palpable sense of curiosity and agility emanates from the creature.",
+    "image_url":"https://images.unsplash.com/photo-1500479694472-551d1fb6258d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "choice_1": {
+      "choice_description": "Greet the fox with respect, acknowledging its cunning nature.",
+      "god_message": "The fox's ears perk up, and it circles you with a playful ease, seemingly intrigued.",
+      "choice_score": "good",
+      "choice_1": {
+        "choice_description": "Share a witty riddle, engaging its love for cleverness.",
+        "god_message": "The fox tilts its head, amused by your challenge, and then nods in approval, a gleam of respect in its eyes.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Promise to spread tales of its cleverness across the lands.",
+          "god_message": "The fox shimmers and transforms into Hermes, who smiles broadly, charmed by your commitment.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Ask for guidance on your journey, valuing its wisdom.",
+          "god_message": "Hermes reveals himself, nodding thoughtfully at your request, though with a hint of caution.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Attempt to catch the fox, eager to harness its speed.",
+          "god_message": "The fox darts away, its form blurring before disappearing, a sign of Hermes' disapproval.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_2": {
+        "choice_description": "Offer a piece of your journey's provisions, showing generosity.",
+        "god_message": "The fox sniffs the offering and then takes it, its gaze softening slightly, a sign of mild approval.",
+        "choice_score": "neutral",
+        "choice_1": {
+          "choice_description": "Speak of the value of sharing and companionship on long travels.",
+          "god_message": "The fox, now visibly warmer, reveals itself as Hermes, impressed by your understanding of companionship.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Continue offering food, hoping to win its favor through generosity.",
+          "god_message": "The fox accepts the food but soon grows disinterested, wandering off as Hermes decides your approach lacks depth.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Try to lure the fox into a trap, thinking it a mere animal.",
+          "god_message": "The fox vanishes in a puff of smoke, a clear indication of Hermes' disdain for your deceit.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_3": {
+        "choice_description": "Boast about your own cleverness, comparing it to the fox's.",
+        "god_message": "The fox sits back on its haunches, unimpressed by your arrogance, its eyes narrowing.",
+        "choice_score": "bad"
+      }
+    },
+    "choice_2": {
+      "choice_description": "Recite a poem in honor of the gods, eyeing the fox.",
+      "god_message": "The fox cocks its head, listening intently to your words, its tail flicking with interest.",
+      "choice_score": "neutral",
+      "choice_1": {
+        "choice_description": "Weave Hermes' virtues into your poem, praising his cunning and speed.",
+        "god_message": "The fox's demeanor brightens, and it dances around you joyfully, before Hermes himself stands before you, touched by your homage.",
+        "choice_score": "good",
+        "choice_1": {
+          "choice_description": "Offer to dedicate your next victory to him, seeking his favor.",
+          "god_message": "Hermes grins, flattered by your offer and reveals himself fully, considering your request.",
+          "choice_score": "good"
+        },
+        "choice_2": {
+          "choice_description": "Mention the poem was inspired by your own achievements.",
+          "god_message": "Hermes, in his true form, chuckles at your audacity but senses your sincerity, leaving you with a contemplative look.",
+          "choice_score": "neutral"
+        },
+        "choice_3": {
+          "choice_description": "Demand a token of his power as proof of his favor.",
+          "god_message": "Hermes' expression turns cold, and he vanishes without a word, unimpressed by your arrogance.",
+          "choice_score": "bad"
+        }
+      },
+      "choice_2": {
+        "choice_description": "Sing about the beauty of the natural world, including its creatures.",
+        "god_message": "The fox listens for a moment longer before wandering off, somewhat interested but ultimately unengaged.",
+        "choice_score": "neutral"
+      },
+      "choice_3": {
+        "choice_description": "Ignore the fox, focusing solely on your performance.",
+        "god_message": "The fox, feeling neglected, quickly loses interest and slips away, leaving you alone.",
+        "choice_score": "bad"
+      }
+    },
+    "choice_3": {
+      "choice_description": "Attempt to scare the fox away, seeing it as a potential threat.",
+      "god_message": "The fox simply vanishes before your eyes, a clear sign of Hermes' displeasure at your hostility.",
+      "choice_score": "bad"
+    }
+  }
+  

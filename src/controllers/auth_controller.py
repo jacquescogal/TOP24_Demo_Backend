@@ -29,6 +29,8 @@ class Authoriser:
         Authenticates a user.
         """
         response = await self.user_model.get_user(login_request.username)
+        print(login_request,response)
+        print(response['role'])
         if response and response['role'] == role and bcrypt.checkpw(login_request.password.encode('utf-8'), response['password'].encode('utf-8')):
             return await self._issue_jwt(User(**response))
         return JSONResponse(status_code=401, content={'message': f"Error: {role} {login_request.username} not authenticated"})
@@ -37,6 +39,7 @@ class Authoriser:
         """
         Registers a new user.
         """
+        print(register_request)
         existence = await self.user_model.check_user_exists(register_request.username)
         if existence:
             return JSONResponse(status_code=400, content={'message': f"Error: {register_request.username} already exists"})
@@ -119,7 +122,7 @@ class Authoriser:
         }
         self.username_uuid_map[user.username] = uuid_str
         token = jwt.encode(payload, SECRET_KEY, algorithm=ALGORITHM,)
-        return JSONResponse(status_code=200, content={'token': token})
+        return JSONResponse(status_code=200, content={'token': token,'team_name':user.team_name})
 
     async def authenticate_user_uuid(self, username, uuid):
         """

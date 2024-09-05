@@ -2,7 +2,7 @@ from fastapi import APIRouter, Depends
 from src.schemas.user_schemas import *
 from src.schemas.auth_schemas import *
 from src.controllers.auth_controller import Authoriser
-from src.dependencies.dependencies import player_jwt_token_checker, gl_jwt_token_checker, facilitator_jwt_token_checker
+from src.dependencies.dependencies import player_jwt_token_checker, gl_jwt_token_checker, facilitator_jwt_token_checker, admin_jwt_token_checker
 from fastapi.responses import JSONResponse
 auth_router = APIRouter()
 
@@ -23,15 +23,17 @@ async def user_login(login_request:LoginRequest):
         tags=["auth", "gl"])
 async def gl_login(login_request:LoginRequest):
     authoriser = await Authoriser.get_instance()
+    print(login_request)
     response = await authoriser.authenticate(login_request, Role.gl)
     return response
 
 @auth_router.post(
-        path="/facilitator/login",
+        path="/gm/login",
         tags=["auth", "facilitator"])
 async def facilitator_login(login_request:LoginRequest):
     authoriser = await Authoriser.get_instance()
     response = await authoriser.authenticate(login_request, Role.facilitator)
+
     return response
 
 @auth_router.post(
@@ -96,6 +98,7 @@ Test routes
         path="/user/register",
         tags=["auth", "user"])
 async def user_register(register_request:RegisterRequest):
+        print(register_request)
         authoriser = await Authoriser.get_instance()
         response = await authoriser.register(register_request, Role.player)
         return response
@@ -145,3 +148,40 @@ async def get_user_jwt(user:User):
         tags=["auth", "misc"])
 async def test_protected(user:str = Depends(player_jwt_token_checker)):
     return user
+
+@auth_router.post(
+        path="/admin/register",
+        tags=["auth", "misc"])
+async def admin_register(register_request:RegisterRequest):
+        authoriser = await Authoriser.get_instance()
+        response = await authoriser.register(register_request, Role.admin)
+        return response
+
+@auth_router.post(
+        path="/admin/login",
+        tags=["auth", "misc"])
+async def admin_login(login_request:LoginRequest):
+        authoriser = await Authoriser.get_instance()
+        response = await authoriser.authenticate(login_request, Role.admin)
+        return response
+
+@auth_router.get(
+        path='/admin/check_token',
+        tags=["auth", "admin"]
+)
+async def check_token(user:User = Depends(admin_jwt_token_checker)):
+        return JSONResponse(status_code=200, content={'message': f"Success: {user.role} {user.username} authenticated"})
+
+@auth_router.get(
+        path='/gm/check_token',
+        tags=["auth", "facilitator"]
+)
+async def check_token(user:User = Depends(facilitator_jwt_token_checker)):
+        return JSONResponse(status_code=200, content={'message': f"Success: {user.role} {user.username} authenticated"})
+
+@auth_router.get(
+        path='/gl/check_token',
+        tags=["auth", "facilitator"]
+)
+async def check_token(user:User = Depends(gl_jwt_token_checker)):
+        return JSONResponse(status_code=200, content={'message': f"Success: {user.role} {user.username} authenticated"})

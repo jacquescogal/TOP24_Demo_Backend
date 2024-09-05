@@ -1,0 +1,221 @@
+{
+    "god": "Zeus",
+    "god_message": "Mortal, you stand in the presence of Zeus, the sky father and king of Olympus. What boldness brings you to my throne?",
+    "image_url":"https://www.grunge.com/img/gallery/the-untold-truth-of-the-statue-of-zeus-at-olympia/l-intro-1654683410.jpg",
+    "choice_1": {
+        "choice_description": "Express your unwavering loyalty to Zeus and the Olympian order.",
+        "god_message": "Loyalty is the foundation upon which the heavens rest. Your fealty is noted.",
+        "choice_score": "good",
+        "choice_1": {
+            "choice_description": "Seek Zeus's counsel to ensure victory in the war.",
+            "god_message": "Counsel from Olympus can turn the tide of any conflict. Your request shows wisdom.",
+            "choice_score": "good",
+            "choice_1": {
+                "choice_description": "Offer to build temples in Zeus's honor across the land.",
+                "god_message": "Temples as monuments to faith are a compelling tribute. I shall consider your dedication.",
+                "choice_score": "good"
+            },
+            "choice_2": {
+                "choice_description": "Pledge to spread Zeus's glory and tales of his victories.",
+                "god_message": "Tales of glory resonate through eternity, yet action solidifies legacy. I will contemplate your words.",
+                "choice_score": "neutral"
+            },
+            "choice_3": {
+                "choice_description": "Demand Zeus's intervention, citing the fate of Olympus.",
+                "god_message": "Demands upon a god, especially of Olympus, reflect neither wisdom nor respect. Ponder your approach.",
+                "choice_score": "bad"
+            }
+        },
+        "choice_2": {
+            "choice_description": "Request Zeus to unleash his thunderbolts against your enemies.",
+            "god_message": "The thunderbolt is a symbol of ultimate authority and power, not to be wielded lightly.",
+            "choice_score": "neutral",
+            "choice_1": {
+                "choice_description": "Vow to act as Zeus's mortal instrument of justice.",
+                "god_message": "Justice through a mortal agent? An intriguing notion. I will consider your offer.",
+                "choice_score": "good"
+            },
+            "choice_2": {
+                "choice_description": "Suggest this show of force would deter future rebellions.",
+                "god_message": "Deterrence is but one facet of rule. True leadership inspires loyalty, not fear. I shall ponder this.",
+                "choice_score": "neutral"
+            },
+            "choice_3": {
+                "choice_description": "Insist that without his intervention, all is lost.",
+                "god_message": "Desperation does not become a leader, nor does it sway the will of Zeus. Reflect upon your words.",
+                "choice_score": "bad"
+            }
+        },
+        "choice_3": {
+            "choice_description": "Inquire about Zeus's own battles and draw parallels to your struggle.",
+            "god_message": "The chronicles of the divine are filled with conflict and resolution, a mirror to mortal endeavors.",
+            "choice_score": "bad",
+            "choice_1": {
+                "choice_description": "Show reverence for Zeus's wisdom and seek to learn from his victories.",
+                "god_message": "Reverence for the past and a desire to learn are the first steps towards wisdom. Your path is wise.",
+                "choice_score": "good"
+            },
+            "choice_2": {
+                "choice_description": "Pledge to emulate Zeus's leadership in your own campaign.",
+                "god_message": "To emulate the divine is a noble goal, yet one must understand their own limits. I will consider your ambition.",
+                "choice_score": "neutral"
+            },
+            "choice_3": {
+                "choice_description": "Claim you could surpass Zeus's achievements with his support.",
+                "god_message": "Ambition should be tempered with humility. Hubris has been the downfall of many. Contemplate this.",
+                "choice_score": "bad"
+            }
+        }
+    },
+    "choice_2": {
+        "choice_description": "Offer a grand sacrifice to demonstrate your devotion and the gravity of your cause.",
+        "god_message": "Sacrifice is a testament to faith and desperation. The scale of your offering will be weighed.",
+        "choice_score": "neutral",
+        "choice_1": {
+            "choice_description": "Sacrifice your prized possession as a symbol of your dedication.",
+            "god_message": "A personal sacrifice of great value demonstrates profound dedication. I shall ponder your devotion.",
+            "choice_score": "good",
+            "choice_1": {
+                "choice_description": "Promise to enact laws that honor Zeus and enforce his worship.",
+                "god_message": "Laws that ensure reverence for the divine contribute to the order of the world. Your proposal holds merit.",
+                "choice_score": "good"
+            },
+            "choice_2": {
+                "choice_description": "Suggest the sacrifice will ensure Zeus's favor in battle.",
+                "god_message": "Favor is earned through actions and character, not just sacrifice. Reflect upon your intentions.",
+                "choice_score": "neutral"
+            },
+            "choice_3": {
+                "choice_description": "Claim the sacrifice guarantees victory.",
+                "god_message": "No act can guarantee victory. The fates weave complex patterns, influenced by many. Consider your hubris.",
+                "choice_score": "bad"
+            }
+        },
+        "choice_2": {
+            "choice_description": "Offer a portion of the war spoils to Zeus's temples.",
+            "god_message": "Contributions to my temples bolster the faith and the spirit of the people. Your offer is noted.",
+            "choice_score": "neutral",
+            "choice_1": {
+                "choice_description": "Pledge a significant share of the spoils, dedicating a victory feast to Zeus.",
+                "god_message": "A feast in my honor, celebrating victory and spoils, is a grand gesture. I will consider your tribute.",
+                "choice_score": "good"
+            },
+            "choice_2": {
+                "choice_description": "Suggest the wealth will make the priesthood in Zeus's temples unrivaled.",
+                "god_message": "Wealth for the sake of power does not align with divine wisdom. The heart of your offer will be examined.",
+                "choice_score": "neutral"
+            },
+            "choice_3": {
+                "choice_description": "Boast that this will make Zeus the richest of all gods.",
+                "god_message": "Wealth is not the measure of a god's power or influence. Ponder the values you espouse.",
+                "choice_score": "bad"
+            }
+        },
+        "choice_3": {
+            "choice_description": "Propose a grand festival in Zeus's name to rally the people and unite them under his banner.",
+            "god_message": "Festivals can indeed unite people, stir hearts, and strengthen faith. Your proposal is intriguing.",
+            "choice_score": "good",
+            "choice_1": {
+                "choice_description": "Ensure the festival highlights Zeus's role as protector and king of the gods.",
+                "god_message": "Highlighting my protection and leadership can serve to inspire and fortify the spirits of many. A worthy plan.",
+                "choice_score": "good"
+            },
+            "choice_2": {
+                "choice_description": "Suggest competitions of strength and wisdom in Zeus's honor.",
+                "god_message": "Competitions can be a testament to human endeavor and spirit. I will consider how they reflect my virtues.",
+                "choice_score": "neutral"
+            },
+            "choice_3": {
+                "choice_description": "Claim that the festival will surpass the splendor of Olympus itself.",
+                "god_message": "Aspiring to surpass the divine in splendor is a bold claim. True magnificence is found in reverence, not opulence.",
+                "choice_score": "bad"
+            }
+        }
+    },
+    "choice_3": {
+        "choice_description": "Invoke Zeus's sense of justice, arguing that the war is a fight against tyranny and for the freedom of mankind.",
+        "god_message": "Justice is a pillar of divine law, and tyranny its antithesis. Your words strike at the heart of order.",
+        "choice_score": "good",
+        "choice_1": {
+            "choice_description": "Pledge to establish a fair and just society under Zeus's guidance.",
+            "god_message": "A society built on justice and guided by the divine is a beacon of light. Your vision will be contemplated.",
+            "choice_score": "good",
+            "choice_1": {
+                "choice_description": "Propose a covenant between gods and mortals to uphold justice.",
+                "god_message": "A covenant is a profound bond. The concept of a shared commitment to justice is noble. I shall ponder your words.",
+                "choice_score": "good"
+            },
+            "choice_2": {
+                "choice_description": "Suggest erecting monuments to Zeus's justice in every city.",
+                "god_message": "Monuments are symbols, but justice requires action and principle. Your intent is noted, yet actions speak louder.",
+                "choice_score": "neutral"
+            },
+            "choice_3": {
+                "choice_description": "Declare that without Zeus, justice will falter and chaos will reign.",
+                "god_message": "To say justice hinges solely upon one is to misunderstand its nature. Reflect on the balance of power and responsibility.",
+                "choice_score": "bad"
+            }
+        },
+        "choice_2": {
+            "choice_description": "Offer to be Zeus's champion, enacting his will on the battlefield.",
+            "god_message": "A champion acts not only with strength but with wisdom and justice. Your offer bears consideration.",
+            "choice_score": "neutral",
+            "choice_1": {
+                "choice_description": "Vow to bring Zeus's enemies to trial before him.",
+                "god_message": "Bringing enemies to justice under divine scrutiny is a testament to your commitment to order. A judicious offer.",
+                "choice_score": "good"
+            },
+            "choice_2": {
+                "choice_description": "Promise swift retribution against those who oppose Zeus's will.",
+                "god_message": "Retribution must be balanced with justice. Swift actions often overlook the scales. I will reflect on your methods.",
+                "choice_score": "neutral"
+            },
+            "choice_3": {
+                "choice_description": "Insist that all who stand against you shall be smitten in Zeus's name.",
+                "god_message": "To smite without judgment is tyranny disguised as zeal. Caution, mortal, lest you become what you oppose.",
+                "choice_score": "bad"
+            }
+        },
+        "choice_3": {
+            "choice_description": "Argue that the gods must intervene directly to restore balance and protect the innocent.",
+            "god_message": "Intervention by the divine is a matter of great consequence, altering the balance of fate and free will.",
+            "choice_score": "bad",
+            "choice_1": {
+                "choice_description": "Plead for Zeus to guide humanity back to the path of righteousness.",
+                "god_message": "Guidance, not dominion, is the role of the divine in mortal affairs. Your plea for guidance is wise.",
+                "choice_score": "good"
+            },
+            "choice_2": {
+                "choice_description": "Suggest that Zeus's power alone can end the conflict swiftly.",
+                "god_message": "Swift resolution through power tempts fate. True resolution comes from understanding and growth. Consider this.",
+                "choice_score": "neutral"
+            },
+            "choice_3": {
+                "choice_description": "Claim that without divine intervention, faith in the gods will diminish.",
+                "god_message": "Faith is not merely kept by displays of power but by the presence of hope and justice in the divine. Reflect on this.",
+                "choice_score": "bad"
+            }
+        }
+    }
+    ,
+    "bonus_question":{
+      "choice_description": "One more thing...",
+      "god_message": "Who is the current Chancellor in ntu ",
+      "choice_score": "neutral",
+      "choice_1": {
+          "choice_description": "Ho Teck Hua",
+          "god_message": "Not quite. I need time to think on your request. Return to your world, mortal.",
+          "choice_score": "bad"
+      },
+      "choice_2": {
+          "choice_description": "Pan Shou",
+          "god_message": "Not quite. I need time to think on your request. Return to your world, mortal.",
+          "choice_score": "bad"
+      },
+      "choice_3": {
+          "choice_description": "Tharman Shanmugaratnam",
+          "god_message": "Very good. I shall consider your request. Return to your world, mortal.",
+          "choice_score": "good"
+      }
+  }
+}

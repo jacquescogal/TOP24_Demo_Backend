@@ -1,0 +1,96 @@
+
+{
+  "god": "Artemis",
+  "god_message": "As you step into the dense forest, your eyes catch a set of ethereal tracks glowing faintly under the moonlight. They possess a divine quality, compelling you to follow and uncover their source.",
+  "image_url":"https://images.unsplash.com/photo-1531563604488-859d53119a79?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "choice_1": {
+    "choice_description": "Acknowledge the divine nature of the tracks and proceed with reverence, understanding this is a sacred test.",
+    "god_message": "The tracks lead you deeper, shimmering slightly with each step you take. The air around you becomes charged with a mystical energy, guiding you toward a hidden glen.",
+    "choice_score": "good",
+    "choice_1": {
+      "choice_description": "Maintain a humble attitude, carefully avoiding harming any part of the forest as you track.",
+      "god_message": "Your respect for the forest and its inhabitants resonates with the divine energy of the tracks. They guide you to a tranquil clearing, where the tracks converge around an ancient altar.",
+      "choice_score": "good",
+      "choice_1": {
+        "choice_description": "Offer a prayer of protection for the forest and its creatures, showing your alignment with Artemis's values.",
+        "god_message": "As your prayer echoes through the clearing, the divine presence materializes before you. Artemis, revealed in her true form, acknowledges your devotion with a nod of approval.",
+        "choice_score": "good"
+      },
+      "choice_2": {
+        "choice_description": "Gather fallen leaves and twigs to create a small, respectful offering at the base of the altar.",
+        "god_message": "Your offering, made from the heart, resonates with the spirit of the forest. Artemis, though still hidden, considers your gesture under the watchful eyes of the moon.",
+        "choice_score": "neutral"
+      },
+      "choice_3": {
+        "choice_description": "Claim aloud that no challenge is too great for you, boasting of your tracking skills.",
+        "god_message": "Your arrogance disrupts the sacred silence of the glen. The divine presence withdraws, leaving you alone with the fading glow of the tracks.",
+        "choice_score": "bad"
+      }
+    },
+    "choice_2": {
+      "choice_description": "Use your knowledge of the wild to interpret the meaning behind the direction of the tracks.",
+      "god_message": "You discern the tracks lead toward a part of the forest known for its ancient, untouched beauty. The divine glow pulses gently, acknowledging your wisdom.",
+      "choice_score": "neutral",
+      "choice_1": {
+        "choice_description": "Follow the tracks silently, using your skills to move as a shadow among the trees.",
+        "god_message": "Your silent approach pays off as you come upon a secluded spring, its waters reflecting the moonlight. The tracks circle the water, hinting at a divine presence nearby.",
+        "choice_score": "good"
+      },
+      "choice_2": {
+        "choice_description": "Mark the path as you go, ensuring you can find your way back if needed.",
+        "god_message": "The forest seems to watch your every move, the magic of the tracks dimming slightly with your lack of faith in their guidance.",
+        "choice_score": "neutral"
+      },
+      "choice_3": {
+        "choice_description": "Hastily push forward, eager to discover the source without heed to the journey.",
+        "god_message": "Your rush disturbs the peace of the forest, causing the divine light of the tracks to vanish, along with any hope of finding Artemis.",
+        "choice_score": "bad"
+      }
+    },
+    "choice_3": {
+      "choice_description": "Attempt to capture a part of the divine essence emanating from the tracks, hoping to harness its power.",
+      "god_message": "Your attempt to control what is sacred offends the very essence of the test. The divine glow extinguishes abruptly, leaving you in darkness.",
+      "choice_score": "bad"
+    }
+  },
+  "choice_2": {
+    "choice_description": "Sing a hymn to Artemis, hoping to align yourself with the deity's presence in the forest.",
+    "god_message": "Your voice carries through the trees, a respectful tribute to the goddess of the hunt. The tracks glow more brightly in response, leading you through a thicket to a moonlit grove.",
+    "choice_score": "neutral",
+    "choice_1": {
+      "choice_description": "Continue your hymn, focusing on Artemis's role as protector of the young and the wild.",
+      "god_message": "The melody of your hymn resonates with the energy of the forest, guiding you to a sacred site adorned with natural offerings. The divine presence feels close, listening intently.",
+      "choice_score": "good",
+      "choice_1": {
+        "choice_description": "Offer a prayer of gratitude for the beauty and sanctity of the forest, seeking Artemis's blessing.",
+        "god_message": "The air around you vibrates with a profound peace, and for a moment, the boundary between the mortal and the divine blurs. Artemis reveals herself, her gaze filled with warmth for your genuine respect.",
+        "choice_score": "neutral"
+      },
+      "choice_2": {
+        "choice_description": "Ask for wisdom and strength to protect the natural world, echoing Artemis's virtues.",
+        "god_message": "Your request echoes through the grove, and the divine presence grows stronger. Artemis, pleased by your commitment to her ideals, steps forward from the shadows, acknowledging your shared values.",
+        "choice_score": "good"
+      },
+      "choice_3": {
+        "choice_description": "Declare your intention to become the greatest hunter, surpassing even Artemis.",
+        "god_message": "Your boastful claim stirs a gust of wind, the energy around you shifting. The divine presence withdraws, leaving a cold silence as your words offend the goddess.",
+        "choice_score": "bad"
+      }
+    },
+    "choice_2": {
+      "choice_description": "Pause your hymn to listen to the forest's response, seeking a sign from Artemis.",
+      "god_message": "The forest whispers back in the rustling of leaves and the distant call of an owl. The tracks maintain their glow but reveal nothing further, leaving you to ponder their silence.",
+      "choice_score": "neutral"
+    },
+    "choice_3": {
+      "choice_description": "Boast of your own achievements as a hunter, comparing them to the feats of Artemis.",
+      "god_message": "The forest grows quiet under the weight of your arrogance. The divine tracks fade away, as does your chance of finding Artemis.",
+      "choice_score": "bad"
+    }
+  },
+  "choice_3": {
+    "choice_description": "Question the validity of the tracks, skeptical of their divine origin.",
+    "god_message": "Your doubt casts a shadow over the path, causing the ethereal glow to flicker and dim. The opportunity to find Artemis slips away as the tracks disappear.",
+    "choice_score": "bad"
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "god": "Artemis",
+  "god_message": "You enter my realm, mortal, where the moonlight dances upon the ancient woods. Speak your intent, for in these sacred groves, every word carries weight.",
+  "image_url":"https://images.unsplash.com/photo-1548112996-1535f97de0de?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "choice_1": {
+    "choice_description": "Seek Artemis's aid in protecting the natural world, threatened by the war.",
+    "god_message": "Your concern for my domain is noted. The balance of nature is paramount.",
+    "choice_score": "good",
+    "choice_1": {
+      "choice_description": "Offer to dedicate new sanctuaries to wildlife in her honor.",
+      "god_message": "Sanctuaries provide refuge to the creatures under my care. Your proposal is intriguing.",
+      "choice_score": "good",
+      "choice_1": {
+        "choice_description": "Pledge to personally oversee the creation of these sanctuaries.",
+        "god_message": "A personal commitment to nature's sanctity is commendable. I shall consider your devotion as night falls.",
+        "choice_score": "good"
+      },
+      "choice_2": {
+        "choice_description": "Suggest organizing hunts to control invasive species.",
+        "god_message": "Balance is maintained through action, yet indiscriminate hunting displeases me. Reflect upon this.",
+        "choice_score": "neutral"
+      },
+      "choice_3": {
+        "choice_description": "Propose exploiting natural resources to fund the war effort.",
+        "god_message": "Exploitation disrupts the sacred balance. Such proposals do not find favor with me.",
+        "choice_score": "bad"
+      }
+    },
+    "choice_2": {
+      "choice_description": "Ask for her beasts to serve as allies in battle.",
+      "god_message": "My creatures are sacred guardians, not pawns in mortal conflicts.",
+      "choice_score": "neutral",
+      "choice_1": {
+        "choice_description": "Vow that their participation will be to defend nature itself.",
+        "god_message": "If it is to protect the natural order, I will contemplate your request as the moon waxes and wanes.",
+        "choice_score": "good"
+      },
+      "choice_2": {
+        "choice_description": "Insist on their unmatched prowess as a strategic advantage.",
+        "god_message": "Might alone does not sway my heart. Consider your words more carefully.",
+        "choice_score": "neutral"
+      },
+      "choice_3": {
+        "choice_description": "Claim that without their aid, the war cannot be won.",
+        "god_message": "The fates of wars are not for the beasts to decide. Your demand shows little respect for their true nature.",
+        "choice_score": "bad"
+      }
+    },
+    "choice_3": {
+      "choice_description": "Promise to enact laws protecting forests and wildlife after the war.",
+      "god_message": "Legislation can be a shield for the vulnerable. Your foresight is noted.",
+      "choice_score": "bad",
+      "choice_1": {
+        "choice_description": "Commit to personally monitoring the enforcement of these laws.",
+        "god_message": "Vigilance in protection is a virtue I value. I shall consider your pledge as the dawn breaks.",
+        "choice_score": "good"
+      },
+      "choice_2": {
+        "choice_description": "Suggest that such laws could increase your own power.",
+        "god_message": "Power should not be the root of protection. Reflect upon your true intentions.",
+        "choice_score": "neutral"
+      },
+      "choice_3": {
+        "choice_description": "Admit the laws might be difficult to enforce uniformly.",
+        "god_message": "Acknowledging challenges is wise, yet it does little to assure me of their resolution.",
+        "choice_score": "bad"
+      }
+    }
+  },
+  "choice_2": {
+    "choice_description": "Appeal to Artemis's prowess as a hunter to gain her favor in combat.",
+    "god_message": "The hunt requires skill and respect for the life taken, not merely the pursuit of victory.",
+    "choice_score": "neutral",
+    "choice_1": {
+      "choice_description": "Offer to train your warriors in the way of respectful hunting.",
+      "god_message": "Teaching respect for the hunt honors me. Your proposition catches my attention.",
+      "choice_score": "good",
+      "choice_1": {
+        "choice_description": "Promise to hold a ceremonial hunt in her honor.",
+        "god_message": "A ceremonial hunt that honors the sacred balance is worthy of consideration. I shall think on this under the silver moon.",
+        "choice_score": "good"
+      },
+      "choice_2": {
+        "choice_description": "Suggest the hunt focus on enemies of nature.",
+        "god_message": "Focusing on true threats to nature shows wisdom. I will ponder your suggestion as the night deepens.",
+        "choice_score": "neutral"
+      },
+      "choice_3": {
+        "choice_description": "Propose using her sacred animals as trackers.",
+        "god_message": "Using sacred creatures for mortal ends is a path fraught with peril. Tread carefully in your requests.",
+        "choice_score": "bad"
+      }
+    },
+    "choice_2": {
+      "choice_description": "Praise her skill and ask for her personal involvement in the war.",
+      "god_message": "Flattery does not sway me. Actions speak louder than words.",
+      "choice_score": "bad",
+      "choice_1": {
+        "choice_description": "Clarify your intent, highlighting the strategic advantage.",
+        "god_message": "Strategy born of respect and necessity can be persuasive. I will reflect on your words with the next sunset.",
+        "choice_score": "good"
+      },
+      "choice_2": {
+        "choice_description": "Insist that her participation is essential for victory.",
+        "god_message": "Essentiality does not command my presence. Consider what truly matters in your quest.",
+        "choice_score": "neutral"
+      },
+      "choice_3": {
+        "choice_description": "Boast about your own hunting skills to gain her respect.",
+        "god_message": "Boasting proves little. Show respect and understanding instead.",
+        "choice_score": "bad"
+      }
+    },
+    "choice_3": {
+      "choice_description": "Seek blessings for your archers, invoking Artemis's dominion over archery.",
+      "god_message": "Blessings are granted to those who show true devotion and respect for their craft.",
+      "choice_score": "good",
+      "choice_1": {
+        "choice_description": "Promise to dedicate their victories to Artemis.",
+        "god_message": "Dedications in my name, if done with a pure heart, shall not go unnoticed. I will take your pledge under advisement as the stars shine.",
+        "choice_score": "good"
+      },
+      "choice_2": {
+        "choice_description": "Offer to hold a competition to select the finest archers.",
+        "god_message": "A competition can reveal much, but remember, it is the spirit, not just skill, that I value.",
+        "choice_score": "neutral"
+      },
+      "choice_3": {
+        "choice_description": "Suggest that her blessings would make them invincible.",
+        "god_message": "Invincibility is not the purpose of my blessings. Aim for harmony with nature, not dominion over it.",
+        "choice_score": "bad"
+      }
+    }
+  },
+  "choice_3": {
+    "choice_description": "Inquire about Artemis's views on the balance between war and nature.",
+    "god_message": "War disrupts the natural order, yet sometimes it is necessary to restore balance.",
+    "choice_score": "neutral",
+    "choice_1": {
+      "choice_description": "Express a desire to maintain this balance even in times of conflict.",
+      "god_message": "Your awareness of balance resonates with me. Speak further, for such wisdom is rare.",
+      "choice_score": "good",
+      "choice_1": {
+        "choice_description": "Propose a pact to minimize environmental damage during the war.",
+        "god_message": "A pact that respects the sanctity of nature shows foresight. I shall consider your words as the moon wanes.",
+        "choice_score": "good"
+      },
+      "choice_2": {
+        "choice_description": "Suggest that some destruction is unavoidable for victory.",
+        "god_message": "Destruction may be a part of war, but it should not be taken lightly. Weigh your actions carefully.",
+        "choice_score": "neutral"
+      },
+      "choice_3": {
+        "choice_description": "Argue that victory justifies any environmental cost.",
+        "god_message": "Such justification is anathema to the balance I uphold. Your words darken the forest's heart.",
+        "choice_score": "bad"
+      }
+    },
+    "choice_2": {
+      "choice_description": "Pledge to rebuild and restore any natural areas affected by the war.",
+      "god_message": "Restoration after destruction is a path to redemption. Your pledge intrigues me.",
+      "choice_score": "neutral",
+      "choice_1": {
+        "choice_description": "Offer to plant a forest named after Artemis.",
+        "god_message": "A new forest in my name would be a sanctuary for many. Your offer holds merit, and I will consider it with the first light of dawn.",
+        "choice_score": "good"
+      },
+      "choice_2": {
+        "choice_description": "Admit the task may be great, but commit to seeing it through.",
+        "god_message": "Admitting the scope of your commitment is wise. Your dedication will be taken into account.",
+        "choice_score": "neutral"
+      },
+      "choice_3": {
+        "choice_description": "Claim that the war's end will naturally heal the land.",
+        "god_message": "Nature heals, but not always without help. Such naivety does little to sway me.",
+        "choice_score": "bad"
+      }
+    },
+    "choice_3": {
+      "choice_description": "Question whether the gods should intervene more to protect nature from war.",
+      "god_message": "Divine intervention is a delicate matter. It is not taken lightly, nor upon mere questioning.",
+      "choice_score": "bad",
+      "choice_1": {
+        "choice_description": "Clarify your question as a plea for guidance, not intervention.",
+        "god_message": "Seeking guidance shows humility and wisdom. I shall ponder your words as the night skies clear.",
+        "choice_score": "good"
+      },
+      "choice_2": {
+        "choice_description": "Insist that without divine help, the natural world is doomed.",
+        "god_message": "Doom is not preordained. Fate lies in the hands of those willing to act.",
+        "choice_score": "neutral"
+      },
+      "choice_3": {
+        "choice_description": "Suggest that the gods have abandoned their duties to nature.",
+        "god_message": "Accusations against the divine are serious and misguided. Reflect upon the path you choose.",
+        "choice_score": "bad"
+      }
+    }
+  },
+  "bonus_question":{
+    "choice_description": "One more thing...",
+    "god_message": "What symbol(s) does NTU's logo include? ",
+    "choice_score": "neutral",
+    "choice_1": {
+        "choice_description": "Lion",
+        "god_message": "Not quite. I need time to think on your request. Return to your world, mortal.",
+        "choice_score": "bad"
+    },
+    "choice_2": {
+        "choice_description": "Atomic Symbols",
+        "god_message": "Not quite. I need time to think on your request. Return to your world, mortal.",
+        "choice_score": "bad"
+    },
+    "choice_3": {
+        "choice_description": "Both of them",
+        "god_message": "Very good. I shall consider your request. Return to your world, mortal.",
+        "choice_score": "good"
+    }
+}
+}
